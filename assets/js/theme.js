@@ -16,7 +16,7 @@ d.addEventListener("DOMContentLoaded", function(event) {
     if (preloader) {
         setTimeout(function() {
             preloader.classList.add('d-none');
-        }, 1000);
+        }, 3000);
     }
 
     // Headroom
