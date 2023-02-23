@@ -17,6 +17,11 @@
   <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 <body>
+  <div id="loading" class="loading-preloader">
+    <div class="loading-preloader-in">
+      <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_c5vj9laj.json"  background="#051027"  speed="2"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    </div>
+  </div>
     <div class="wrapper">
               <!-- Header -->
       <header
@@ -221,6 +226,9 @@
                                     "slidesPerView": 3.5,
                                     "spaceBetween": 0
                                   }
+                                },
+                                "autoplay": {
+                                  "delay": 2000
                                 }
                           }'
             >
@@ -394,7 +402,11 @@
                                     "slidesPerView": 3.5,
                                     "spaceBetween": 0
                                   }
+                                },
+                                "autoplay": {
+                                  "delay": 2000
                                 }
+                                
                           }'
             >
               <div class="swiper-wrapper">
@@ -544,5 +556,6 @@
   <script src="assets/js/theme.js"></script>
   <script src="assets/js/color-modes.js"></script>
   <!-- End script start -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 </html>
