@@ -28065,11 +28065,10 @@ html {
   width: 100%;
 }
 .carda{
-  height: 345px;
-  width: 110%;
+  height: 413px;
 }
 .imga{
-  height: 60%;
+  max-width: 80%;
 }
 .accor{
   background-color: #f0f7ff1f;
