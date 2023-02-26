@@ -28064,3 +28064,17 @@ html {
   right: auto;
   width: 100%;
 }
+.carda{
+  height: 413px;
+}
+.imga{
+  max-width: 80%;
+}
+.accor{
+  background-color: #f0f7ff1f;
+  min-height: 400px;
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
+.img-box{background: #ffffff; padding-top: 50px; overflow: hidden; position: relative; border-radius: 7px;}
+.img-box img{width: 60%;}
