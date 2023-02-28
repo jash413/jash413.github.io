@@ -28065,7 +28065,7 @@ html {
   width: 100%;
 }
 .carda{
-  height: 413px;
+  padding-bottom: 3rem !important;
 }
 .imga{
   max-width: 80%;
@@ -28078,3 +28078,14 @@ html {
 }
 .img-box{background: #ffffff; padding-top: 50px; overflow: hidden; position: relative; border-radius: 7px;}
 .img-box img{width: 60%;}
+
+.display4 {
+  font-size: calc(1.475rem + 2.7vw);
+  font-weight: 700;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display4 {
+    font-size: 3.5rem;
+  }
+}
