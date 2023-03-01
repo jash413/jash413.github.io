@@ -28089,3 +28089,8 @@ html {
     font-size: 3.5rem;
   }
 }
+@media (max-width: 600px) {
+  .display4 {
+    padding-top: 15%;
+  }
+}
