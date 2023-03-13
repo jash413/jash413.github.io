@@ -14,6 +14,7 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="assets/img/favicon.ico" />
   <!-- CSS Template -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="assets/css/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
@@ -187,7 +188,7 @@
                 </div>
               </nav>
           </header>
-    <div class="container position-relative pt-7">
+    <div class="container position-relative pt-7" >
         <div class="row align-items-center justify-content-center">
           <div class="col-lg-7 text-center pb-7" style="padding-top: 12rem;">
             <h1 class="display-4">
@@ -197,7 +198,7 @@
         </div>
     </div>
     <section class="section">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="3000">
           <div class="row justify-content-center section-heading">
             <div class="col-lg-7 text-center">
               <!-- <h6 class="text-primary">HOT STUFF</h6> -->
@@ -552,7 +553,13 @@
 
 
     </div>
-  --><!-- script start --><!--bootstrap-->
+
+
+  <!-- script start --><!--bootstrap-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
   <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <!-- swiper JS -->
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
@@ -563,6 +570,7 @@
   <!-- Theme JS -->
   <script src="assets/js/theme.js"></script>
   <script src="assets/js/color-modes.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
   <!-- End script start -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
