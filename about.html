@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="zxx" data-bs-theme="dark">
+  <head>
+    <!-- metas -->
+    <meta charset="utf-8" />
+    <meta name="author" content="pxdraft" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <!-- title -->
+    <title>Catstats</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <!-- CSS Template -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="loading1" class="loading-preloader1">
+      <div class="loading-preloader1-in">
+        <lottie-player
+          src="https://assets2.lottiefiles.com/packages/lf20_c5vj9laj.json"
+          background="#051027"
+          speed="2"
+          style="width: 300px; height: 300px"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="header-height-bar"></div>
+      <!-- Header -->
+      <header
+      class="main-header fixed-top headroom border-bottom border-gray-200 @@classes"
+    >
+      <nav class="navbar navbar-expand-lg">
+        <div class="container align-items-center">
+          <div class="logo">
+            <a class="navbar-brand" href="index.html"
+              ><img
+                class="logo-dark"
+                style="height: 50px; width: 150px"
+                src="assets/img/logo.png"
+                title=""
+                alt="" />
+              <img
+                class="logo-light"
+                style="height: 50px; width: 150px"
+                src="assets/img/logo.png"
+                title=""
+                alt=""
+            /></a>
+          </div>
+          <div class="header-end d-flex justify-content-end">
+            <div
+              class="offcanvas nav-offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvas_Header_01"
+              aria-labelledby="offcanvas_Header_01"
+            >
+              <div
+                class="offcanvas-header flex-wrap border-bottom border-gray-200"
+              >
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  data-bs-target="#offcanvas_Header_01"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="endangered.html"
+                      >Endangered</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="extinct.html">Extinct</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Store</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="test.html">Where-Abouts</a>
+                    </li>
+                </ul>
+              </div>
+              <div class="offcanvas-footer"></div>
+            </div>
+            <!-- Switch -->
+            <div class="h-col h-switch dropdown">
+              <button
+                class="theme-switch h-icon dropdown-toggle"
+                id="bd-theme"
+                type="button"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                data-bs-display="static"
+              >
+                <span class="bi my-1 theme-icon-active"
+                  ><i class="bi-circle-half"></i> </span
+                ><span class="d-none">Toggle theme</span>
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="bd-theme"
+              >
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item"
+                    data-bs-theme-value="light"
+                  >
+                    <span class="bi me-2 opacity-50 theme-icon"
+                      ><i class="bi-sun-fill"></i> </span
+                    >Light
+                    <span class="bi ms-auto d-none"
+                      ><i class="bi-check2"></i
+                    ></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item"
+                    data-bs-theme-value="dark"
+                  >
+                    <span class="bi me-2 opacity-50 theme-icon"
+                      ><i class="bi-moon-stars-fill"></i> </span
+                    >Dark
+                    <span class="bi ms-auto d-none"
+                      ><i class="bi-check2"></i
+                    ></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item active"
+                    data-bs-theme-value="auto"
+                  >
+                    <span class="bi me-2 opacity-50 theme-icon"
+                      ><i class="bi-circle-half"></i> </span
+                    >Auto
+                    <span class="bi ms-auto d-none"
+                      ><i class="bi-check2"></i
+                    ></span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <!-- Mobile Toggle -->
+            <div class="h-col h-toggler d-xl-none">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvas_Header_01"
+                aria-controls="offcanvas_Header_01"
+              >
+                <span class="px-navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+      <main>
+        <section class="section">
+          <h1 class="display4 text-center">
+            Our story
+          </h1>
+          <div class="container">
+            <div class="row align-items-center pb-8">
+              <div class="col-lg-6 pe-lg-12">
+                <!-- <h1 class="pb-3">Our story</h1> -->
+                <p style="font-size: 18px;">
+                  Passionate cat lovers and experts in conservation, wildlife
+                  biology, and data analysis came together with a mission to
+                  raise awareness and promote conservation efforts for
+                  endangered cat species. They created the "Catstats" website to
+                  provide a reliable source of information on the population,
+                  habitat, and conservation status of various species of wild
+                  cats, including tigers, lions, leopards, and cheetahs. The
+                  team worked tirelessly to design a user-friendly website that
+                  would be accessible to anyone who wanted to learn more about
+                  these amazing animals and the importance of protecting them.
+                  The website quickly became a valuable resource for people all
+                  over the world, inspiring many to take action to protect these
+                  incredible animals from extinction.
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <img src="assets/img/founders.png" title="" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Feature Tabs -->
+        <div class="container">
+        <div class="row feture-tabs">
+          <div class="col-lg-6">
+            <h3>Journey Of Catstats</h3><br>
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills mb-3">
+              <li>
+                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Who we are</a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab2">What we do</a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab3">Why we do</a>
+              </li>
+            </ul><!-- End Tabs -->
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+
+              <div class="tab-pane fade show active" id="tab1" style="font-size: 18px;">
+                <p>We are a team of dedicated cat lovers who believe in the importance of conserving the world's feline species. Our team consists of wildlife experts, conservationists, and researchers who have a passion for cats and their natural habitats. We are committed to using our knowledge and expertise to make a difference in the world and help preserve these magnificent animals for generations to come.</p>
+              </div><!-- End Tab 1 Content -->
+
+              <div class="tab-pane fade show" id="tab2" style="font-size: 18px;">
+                <p>At the "Catstats" our primary mission is to provide information on endangered cat species around the world. We have collected data on the population, habitat, and conservation status of various species, including tigers, lions, leopards, cheetahs, and more. We collaborate with wildlife organizations and experts to ensure that our data is accurate and up-to-date. Our website is a valuable resource for individuals and organizations that want to learn more about these animals and the importance of protecting them.</p>
+              </div><!-- End Tab 2 Content -->
+
+              <div class="tab-pane fade show" id="tab3" style="font-size: 18px;">
+                <p>We are passionate about cats and their role in the world's ecosystems. These animals are essential to maintaining the delicate balance of nature, and their extinction would have significant implications for the environment and other species. We created the "Catstats" to raise awareness about the threats facing these animals and to encourage action to protect them. By providing information on endangered cat species, we hope to inspire individuals and organizations to take action and make a difference in the world. Together, we can work towards a future where cats thrive in their natural habitats and continue to play a vital role in the world's ecosystems.</p>
+              </div><!-- End Tab 3 Content -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <img src="assets/img/features-2.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+        <!-- End Feature Tabs -->
+
+        <!-- <section class="section">
+          <div class="container">
+            <div class="row align-items-center pb-8">
+              <div class="col-lg-6 pe-lg-12">
+                <h1 class="pb-3">Building an Maffei economy</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+                <p>
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <img
+                  src="assets/img/All-NFT-Categories-Illustration.svg"
+                  title=""
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="row gx-3 gy-5 row-cols-3 row-cols-md-5 justify-content-center"
+            >
+              <div class="col text-center">
+                <div
+                  class="icon-lg rounded-circle bg-primary bg-opacity-10 text-primary mb-3"
+                >
+                  <i class="bi-calendar"></i>
+                </div>
+                <h6 class="mb-1">2018</h6>
+                <p class="m-0 fs-sm">Founded</p>
+              </div>
+              <div class="col text-center">
+                <div
+                  class="icon-lg rounded-circle bg-primary bg-opacity-10 text-primary mb-3"
+                >
+                  <i class="bi-person"></i>
+                </div>
+                <h6 class="mb-1">500+</h6>
+                <p class="m-0 fs-sm">Employees</p>
+              </div>
+              <div class="col text-center">
+                <div
+                  class="icon-lg rounded-circle bg-primary bg-opacity-10 text-primary mb-3"
+                >
+                  <i class="bi-columns-gap"></i>
+                </div>
+                <h6 class="mb-1">3M+</h6>
+                <p class="m-0 fs-sm">Collections</p>
+              </div>
+              <div class="col text-center">
+                <div
+                  class="icon-lg rounded-circle bg-primary bg-opacity-10 text-primary mb-3"
+                >
+                  <i class="bi-box-seam"></i>
+                </div>
+                <h6 class="mb-1">80M+</h6>
+                <p class="m-0 fs-sm">NFTs</p>
+              </div>
+              <div class="col text-center">
+                <div
+                  class="icon-lg rounded-circle bg-primary bg-opacity-10 text-primary mb-3"
+                >
+                  <i class="bi-coin"></i>
+                </div>
+                <h6 class="mb-1">$40B+</h6>
+                <p class="m-0 fs-sm">Volume</p>
+              </div>
+            </div>
+          </div>
+        </section> -->
+      </main>
+      <!-- End Main --><!-- Footer -->
+      <footer class="footer footer-bg bg-body border-top border-gray-300">
+        <div class="py-7">
+          <div class="container">
+            <div class="row gy-5">
+              <div class="col-lg-3 me-auto">
+                <div class="pb-4">
+                  <img
+                    class="footer-logo-light"
+                    src="assets/img/logo.png"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="footer-logo-dark"
+                    src="assets/img/logo.png"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <p>The Great Cat Rescue: Saving Lives, One Meow at a Time</p>
+                <p class="text-white-85 small m-0">© 2023 CATSTATS</p>
+              </div>
+              <div class="col-lg-3 col-6">
+                <h5 class="footer-title-01">Links</h5>
+                <ul class="list-unstyled footer-link-01 m-0">
+                  <li><a class="" href="/index.html">Home</a></li>
+                  <li><a class="" href="/endangered.html">Endangered</a></li>
+                  <li><a class="" href="/extinct.html">Extinct</a></li>
+                  <li><a class="" href="/shop.html">Store</a></li>
+                  <li><a class="" href="#">About Us</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <h5 class="footer-title-01">Stay up to date</h5>
+                <form>
+                  <div class="d-flex flex-row">
+                    <input
+                      type="email"
+                      class="form-control me-2"
+                      placeholder="Enter your username"
+                    />
+                    <button class="btn btn-primary flex-shrink-0">
+                      <i class="bi-envelope"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="container">
+          <div class="row py-3 gy-3">
+            <div class="col-md-6">
+              <p class="text-white-85 small m-0">
+                © 2023 Catstats is Proudly Powered by jash mistry
+              </p>
+            </div>
+          </div>
+        </div> -->
+      </footer>
+      <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    --><!-- script start --><!--bootstrap-->
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper JS -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Headroom JS -->
+    <script src="assets/vendor/headroom/headroom.min.js"></script>
+    <!-- Timezz JS -->
+    <script src="assets/vendor/timezz/timezz.js"></script>
+    <!-- Theme JS -->
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/color-modes.js"></script>
+    <!-- End script start -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>

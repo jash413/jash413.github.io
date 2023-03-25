@@ -26761,6 +26761,27 @@ fieldset:disabled .btn {
   align-items: center;
   justify-content: center;
 }
+
+.loading-preloader1 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 11111;
+  background-color: #051027;
+}
+.loading-preloader1 .loading-preloader1-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .bg-gray-25 {
   background-color: var(--bs-gray-25) !important;
 }

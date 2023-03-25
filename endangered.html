@@ -17,9 +17,21 @@
     <link href="/assets/css/bootstrap.css" rel="stylesheet" />
   </head>
   <body>
+    <div id="loading1" class="loading-preloader1">
+        <div class="loading-preloader1-in">
+          <lottie-player
+            src="https://assets2.lottiefiles.com/packages/lf20_c5vj9laj.json"
+            background="#051027"
+            speed="2"
+            style="width: 300px; height: 300px"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </div>
     <div class="wrapper">
         <section>
-        <header
+            <header
             class="main-header fixed-top headroom border-bottom border-gray-200 @@classes"
           >
             <nav class="navbar navbar-expand-lg">
@@ -28,83 +40,65 @@
                   <a class="navbar-brand" href="index.html"
                     ><img
                       class="logo-dark"
-                      style="height: 50px; width: 150px; "
+                      style="height: 50px; width: 150px"
                       src="assets/img/logo.png"
                       title=""
                       alt="" />
                     <img
                       class="logo-light"
-                      style="height: 50px; width: 150px; "
+                      style="height: 50px; width: 150px"
                       src="assets/img/logo.png"
                       title=""
                       alt=""
                   /></a>
                 </div>
                 <div class="header-end d-flex justify-content-end">
-                <div
-                  class="offcanvas nav-offcanvas offcanvas-start"
-                  tabindex="-1"
-                  id="offcanvas_Header_01"
-                  aria-labelledby="offcanvas_Header_01"
-                >
                   <div
-                    class="offcanvas-header flex-wrap border-bottom border-gray-200"
+                    class="offcanvas nav-offcanvas offcanvas-start"
+                    tabindex="-1"
+                    id="offcanvas_Header_01"
+                    aria-labelledby="offcanvas_Header_01"
                   >
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="offcanvas"
-                      data-bs-target="#offcanvas_Header_01"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="offcanvas-body">
-                    <ul class="navbar-nav mx-auto">
-                      <li class="nav-item">
-                        <a
-                          class="nav-link dropdown-toggle"
-                          href="index.html"
-      
-                          >Home</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          class="nav-link dropdown-toggle"
-                          href="endangered.html"
-      
-                          >Endangered</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          class="nav-link"
-                          href="extinct.html"
-      
-                          >Extinct</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                          <a
-                            class="nav-link"
-                            href="shop.html"
-        
-                            >Store</a
+                    <div
+                      class="offcanvas-header flex-wrap border-bottom border-gray-200"
+                    >
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        data-bs-target="#offcanvas_Header_01"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                          <a class="nav-link dropdown-toggle" href="index.html"
+                            >Home</a
                           >
                         </li>
-                      <li class="nav-item">
-                        <a
-                          class="nav-link"
-                          href="#"
-      
-                          >About Us</a
-                        >
-                      </li>
-                    </ul>
+                        <li class="nav-item">
+                          <a class="nav-link dropdown-toggle" href="endangered.html"
+                            >Endangered</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="extinct.html">Extinct</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="shop.html">Store</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="test.html">Where-Abouts</a>
+                          </li>
+                      </ul>
+                    </div>
+                    <div class="offcanvas-footer"></div>
                   </div>
-                  <div class="offcanvas-footer"></div>
-                </div>
-                <!-- Switch -->
+                  <!-- Switch -->
                   <div class="h-col h-switch dropdown">
                     <button
                       class="theme-switch h-icon dropdown-toggle"
@@ -181,7 +175,7 @@
                 </div>
               </div>
             </nav>
-        </header> 
+          </header>
     </section>
       
       <section class="z-index-1" id="feature" style="padding-top: 8%;">
@@ -422,9 +416,6 @@
                                     <ul class="list-unstyled list-icon mb-4">
                                         <li class="mb-3">
                                             <i class="la la-check"></i>
-                                            Business Suite has power to migrate data from existing legacy system. This is hassle free.<br>
-                                        <li class="mb-3">
-                                            <i class="la la-check"></i>
                                             The Iberian Lynx is one of the most endangered species of cats in the world, with an estimated population of only 150-250 adult individuals. It is found in southern Spain and Portugal and is considered as the most endangered species of cat in the world.
                                             </i>
                                     </ul>
@@ -444,7 +435,7 @@
 
                         <div class="accordion-item border-0 mb-4">
 
-                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="padding:0;border: none;background: none;">
+                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="padding:0;border: none;background: none;">
                                 <div class="px-card p-3 rounded-3 carda">
                                     <a href="#"
                                       ><img
@@ -490,7 +481,7 @@
 
                         <div class="accordion-item border-0 mb-4">
 
-                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" style="padding:0;border: none;background: none;">
+                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="padding:0;border: none;background: none;">
                                 <div class="px-card p-3 rounded-3 carda">
                                     <a href="#"
                                       ><img
@@ -535,7 +526,7 @@
 
                         <div class="accordion-item border-0 mb-4">
 
-                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" style="padding:0;border: none;background: none;">
+                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSeven" style="padding:0;border: none;background: none;">
                                 <div class="px-card p-3 rounded-3 carda">
                                     <a href="#"
                                       ><img
@@ -545,7 +536,7 @@
                                         alt=""
                                     /></a>
                                     <div class="pt-4">
-                                        <h6>Flat-headed cat</h6>
+                                        <h6>Snow Leopard</h6>
                                         <div style="float: left; background-color: #ffe6e2;border-radius: 65px; padding-right: 3%;width:40%;">
                                         <img src="assets/img/decrease.jpg" style="border-radius: 5px;height: 30px;width: 30px;">
                                         <h6 style="display: inline; color: #fc573b;">2500</h6>
@@ -577,6 +568,42 @@
                 </div>
             </div>
             <br>
+            <div id="collapseFour" class="accordion-collapse collapse border-0" aria-labelledby="headingFour" data-bs-parent="#accordion4">
+                <div class="accordion-body">
+                    <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
+                        <div class="container accor">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-md-12 image-column" style="padding: 2rem;">
+                                        <img
+                                        class="rounded-3 imga"
+                                        src="assets/img/afreicangoldencat-transformed.jpeg"
+                                        title=""
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
+                                    <div class="section-title mb-4" style="padding-top: 40px;">
+                                        <h5>African golden cat</h5>
+                                    </div>
+                                    <ul class="list-unstyled list-icon mb-4">
+                                        <li class="mb-3">
+                                            <i class="la la-check"></i>
+                                            The African golden cat (Caracal aurata) is a medium-sized wild cat native to the rainforests of West and Central Africa. It is a solitary and elusive animal, and very little is known about its behavior in the wild.<br>
+
+                                            The African golden cat has a distinctive appearance, with short, reddish-brown fur that is marked with black spots and stripes. It has a long, bushy tail and large, rounded ears. It is about the size of a large domestic cat, typically weighing between 5 and 16 kg (11 to 35 lb).<br>
+                                            
+                                            The African golden cat is a skilled hunter, feeding on a variety of prey including small mammals, birds, and reptiles. It is also known to hunt larger animals such as duikers and monkeys. The species is threatened by habitat loss and hunting, as well as by competition with other predators such as leopards and hyenas.
+                                            </i>
+                                    </ul>
+                                    <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
+                                      <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
             <div id="collapseFive" class="accordion-collapse collapse border-0" aria-labelledby="headingFive" data-bs-parent="#accordion5">
                 <div class="accordion-body">
                     <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
@@ -597,10 +624,11 @@
                                     <ul class="list-unstyled list-icon mb-4">
                                         <li class="mb-3">
                                             <i class="la la-check"></i>
-                                            Business Suite has power to migrate data from existing legacy system. This is hassle free.<br>
-                                        <li class="mb-3">
-                                            <i class="la la-check"></i>
-                                            Create your own templates of Excel and CSV files and map those with existing database structure. Leveraging power of database engine, Business Suite uploads data in seconds. In minutes you are transformed to world class cloud system with well-organized database structure.
+                                            The African golden cat (Caracal aurata) is a medium-sized wild cat native to the rainforests of West and Central Africa. It is a solitary and elusive animal, and very little is known about its behavior in the wild.<br>
+
+                                            The African golden cat has a distinctive appearance, with short, reddish-brown fur that is marked with black spots and stripes. It has a long, bushy tail and large, rounded ears. It is about the size of a large domestic cat, typically weighing between 5 and 16 kg (11 to 35 lb).<br>
+                                            
+                                            The African golden cat is a skilled hunter, feeding on a variety of prey including small mammals, birds, and reptiles. It is also known to hunt larger animals such as duikers and monkeys. The species is threatened by habitat loss and hunting, as well as by competition with other predators such as leopards and hyenas.
                                             </i>
                                     </ul>
                                     <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
@@ -620,22 +648,18 @@
                                 <div class="col-lg-6 col-md-12 image-column" style="padding: 2rem;">
                                         <img
                                         class="rounded-3 imga"
-                                        src="assets/img/afreicangoldencat-transformed.jpeg"
+                                        src="assets/img/blackfootcat.jpg"
                                         title=""
                                         alt=""
                                     />
                                 </div>
                                 <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
                                     <div class="section-title mb-4" style="padding-top: 40px;">
-                                        <h5>African golden cat</h5>
+                                        <h5>Snow leopard</h5>
                                     </div>
                                     <ul class="list-unstyled list-icon mb-4">
                                         <li class="mb-3">
-                                            <i class="la la-check"></i>
-                                            Business Suite has power to migrate data from existing legacy system. This is hassle free.<br>
-                                        <li class="mb-3">
-                                            <i class="la la-check"></i>
-                                            Create your own templates of Excel and CSV files and map those with existing database structure. Leveraging power of database engine, Business Suite uploads data in seconds. In minutes you are transformed to world class cloud system with well-organized database structure.
+                                            The estimated population of this threatened species is somewhere between 2,710 and 3,386 individuals.1 The iconic snow leopard lives in the unbelievably cold habitats of alpine and subalpine areas of Central and South Asia, particularly the Tibetan Plateau and the Himalayas. Rarely ever seen in the wild based in part because of its elusive nature and also because so few remain, this animal's numbers continue to decrease despite conservation efforts.
                                             </i>
                                     </ul>
                                     <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
@@ -654,7 +678,7 @@
 
                         <div class="accordion-item border-0 mb-4">
 
-                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" style="padding:0;border: none;background: none;">
+                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" style="padding:0;border: none;background: none;">
                                 <div class="px-card p-3 rounded-3 carda">
                                     <a href="#"
                                       ><img
@@ -664,7 +688,7 @@
                                         alt=""
                                     /></a>
                                     <div class="pt-4">
-                                        <h6>Flat-headed cat</h6>
+                                        <h6>Borneo Bay Cat</h6>
                                         <div style="float: left; background-color: #ffe6e2;border-radius: 65px; padding-right: 3%;width:40%;">
                                         <img src="assets/img/decrease.jpg" style="border-radius: 5px;height: 30px;width: 30px;">
                                         <h6 style="display: inline; color: #fc573b;">2500</h6>
@@ -700,6 +724,208 @@
 
                         <div class="accordion-item border-0 mb-4">
 
+                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" style="padding:0;border: none;background: none;">
+                                <div class="px-card p-3 rounded-3 carda">
+                                    <a href="#"
+                                      ><img
+                                        class="rounded-3 imga"
+                                        src="assets/img/flathead.jpg"
+                                        title=""
+                                        alt=""
+                                    /></a>
+                                    <div class="pt-4">
+                                        <h6>Marbled Cat</h6>
+                                        <div style="float: left; background-color: #ffe6e2;border-radius: 65px; padding-right: 3%;width:40%;">
+                                        <img src="assets/img/decrease.jpg" style="border-radius: 5px;height: 30px;width: 30px;">
+                                        <h6 style="display: inline; color: #fc573b;">2500</h6>
+                                        </div>
+                                        <div style="float: right; background-color: #caf8c3;border-radius: 65px; padding-right: 0%;width:55%;">
+                                          <img src="assets/img/tree.png" style="border-radius: 5px;height: 30px;width: 30px;">
+                                          <h6 style="display: inline; color: #3b7832;">dipterocarp forest</h6>
+                                          </div>
+                                          <br>
+                                          <br>
+                                          <div style="float: left; background-color: #fbffb0;border-radius: 65px; padding-right: 3%;width:40%;">
+                                              <img src="assets/img/time.png" style="border-radius: 5px;height: 30px;width: 30px;">
+                                              <h6 style="display: inline; color: #898000;">2008</h6>
+                                          </div>
+                                          <div style="float: right; background-color: #90ccfc;border-radius: 65px; padding-right: 3%;">
+                                              <img src="assets/img/earth.png" style="border-radius: 5px;height: 30px;width: 30px;">
+                                              <h6 style="display: inline; color: #0063b3;">Southeast Asia</h6>
+                                          </div>
+                                          
+                                      </div>
+                                    
+                                </div>
+                            </button>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <div class="accordion" id="accordion">
+
+                        <div class="accordion-item border-0 mb-4">
+
+                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" style="padding:0;border: none;background: none;">
+                                <div class="px-card p-3 rounded-3 carda">
+                                    <a href="#"
+                                      ><img
+                                        class="rounded-3 imga"
+                                        src="assets/img/flathead.jpg"
+                                        title=""
+                                        alt=""
+                                    /></a>
+                                    <div class="pt-4">
+                                        <h6>Tiger</h6>
+                                        <div style="float: left; background-color: #ffe6e2;border-radius: 65px; padding-right: 3%;width:40%;">
+                                        <img src="assets/img/decrease.jpg" style="border-radius: 5px;height: 30px;width: 30px;">
+                                        <h6 style="display: inline; color: #fc573b;">2500</h6>
+                                        </div>
+                                        <div style="float: right; background-color: #caf8c3;border-radius: 65px; padding-right: 0%;width:55%;">
+                                          <img src="assets/img/tree.png" style="border-radius: 5px;height: 30px;width: 30px;">
+                                          <h6 style="display: inline; color: #3b7832;">dipterocarp forest</h6>
+                                          </div>
+                                          <br>
+                                          <br>
+                                          <div style="float: left; background-color: #fbffb0;border-radius: 65px; padding-right: 3%;width:40%;">
+                                              <img src="assets/img/time.png" style="border-radius: 5px;height: 30px;width: 30px;">
+                                              <h6 style="display: inline; color: #898000;">2008</h6>
+                                          </div>
+                                          <div style="float: right; background-color: #90ccfc;border-radius: 65px; padding-right: 3%;">
+                                              <img src="assets/img/earth.png" style="border-radius: 5px;height: 30px;width: 30px;">
+                                              <h6 style="display: inline; color: #0063b3;">Southeast Asia</h6>
+                                          </div>
+                                          
+                                      </div>
+                                    
+                                </div>
+                            </button>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <br>
+
+            <div id="collapseSeven" class="accordion-collapse collapse border-0" aria-labelledby="headingSeven" data-bs-parent="#accordion7">
+                <div class="accordion-body">
+                    <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
+                        <div class="container accor">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-md-12 image-column" style="padding: 2rem;">
+                                        <img
+                                        class="rounded-3 imga"
+                                        src="assets/img/afreicangoldencat-transformed.jpeg"
+                                        title=""
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
+                                    <div class="section-title mb-4" style="padding-top: 40px;">
+                                        <h5>Borneo Bay Cat</h5>
+                                    </div>
+                                    <ul class="list-unstyled list-icon mb-4">
+                                        <li class="mb-3">
+                                            <i class="la la-check"></i>
+                                            Only an estimated 2,200 mature endangered Borneo bay cats (Catopuma badia) currently live in their secluded range on the island of Borneo.5 These cats are the size of a large house cat and have a chestnut-colored body with a grayish-brown head. They have two dark stripes from the corners of their eyes to their whiskers. They also have a dark mark shaped like the letter M on the back of their head.
+                                            <br>
+
+Unfortunately, researchers know very little about bay cats, and few studies focus on the species. Indeed, the first photograph of a live Borneo bay cat was taken in 1998. Deforestation of its habitat for commercial logging and oil palm plantations constitutes the most significant threat to the species.
+                                            </i>
+                                    </ul>
+                                    <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
+                                      <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div id="collapseEight" class="accordion-collapse collapse border-0" aria-labelledby="headingEight" data-bs-parent="#accordion8">
+                <div class="accordion-body">
+                    <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
+                        <div class="container accor">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-md-12 image-column" style="padding: 2rem;">
+                                        <img
+                                        class="rounded-3 imga"
+                                        src="assets/img/afreicangoldencat-transformed.jpeg"
+                                        title=""
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
+                                    <div class="section-title mb-4" style="padding-top: 40px;">
+                                        <h5>Marbled cat</h5>
+                                    </div>
+                                    <ul class="list-unstyled list-icon mb-4">
+                                        <li class="mb-3">
+                                            <i class="la la-check"></i>
+                                            The marbled cat, native to South and Southeast Asia, has been listed as vulnerable to extinction since 2002, and fewer than 10,000 mature individuals persist in the world.12 It is about the size of a house cat and lives in the branches of trees, where it hunts birds, squirrels, and reptiles. Many people compare the marbled cat to the clouded leopard because of similar markings, canine teeth, and habitats.<br>
+
+Many marbled cats fall victim to snaring by humans who value the bones, meat, and fur. Thankfully, many countries prohibit hunting, which may help to slow its decline — but only if deforestation ceases as well. A loss of habitat proves an urgent threat to this arboreal species.
+                                            </i>
+                                    </ul>
+                                    <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
+                                      <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div id="collapseNine" class="accordion-collapse collapse border-0" aria-labelledby="headingNine" data-bs-parent="#accordion9">
+                <div class="accordion-body">
+                    <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
+                        <div class="container accor">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-md-12 image-column" style="padding: 2rem;">
+                                        <img
+                                        class="rounded-3 imga"
+                                        src="assets/img/afreicangoldencat-transformed.jpeg"
+                                        title=""
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
+                                    <div class="section-title mb-4" style="padding-top: 40px;">
+                                        <h5>Tiger</h5>
+                                    </div>
+                                    <ul class="list-unstyled list-icon mb-4">
+                                        <li class="mb-3">
+                                            <i class="la la-check"></i>
+                                            Only an estimated 3,900 adult tigers remain in the wild despite being the most iconic cat species in the world, next to the African lion.6<br>
+
+ That number actually represents an increase attributed to ambitious conservation plans and better methods of survey.
+
+Poaching is the primary threat to tigers worldwide.7 In some areas, people believe that various tiger parts cure everything from epilepsy and insomnia to laziness and pimples. There's no evidence to support any medical use. Skins also bring in top dollar.
+                                            </i>
+                                    </ul>
+                                    <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
+                                      <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <div class="accordion" id="accordion">
+
+                        <div class="accordion-item border-0 mb-4">
+
                             <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" style="padding:0;border: none;background: none;">
                                 <div class="px-card p-3 rounded-3 carda">
                                     <a href="#"
@@ -710,7 +936,7 @@
                                         alt=""
                                     /></a>
                                     <div class="pt-4">
-                                        <h6>Flat-headed cat</h6>
+                                        <h6>Andean Mountain Cat</h6>
                                         <div style="float: left; background-color: #ffe6e2;border-radius: 65px; padding-right: 3%;width:40%;">
                                         <img src="assets/img/decrease.jpg" style="border-radius: 5px;height: 30px;width: 30px;">
                                         <h6 style="display: inline; color: #fc573b;">2500</h6>
@@ -756,7 +982,7 @@
                                         alt=""
                                     /></a>
                                     <div class="pt-4">
-                                        <h6>Flat-headed cat</h6>
+                                        <h6>Clouded Leopard</h6>
                                         <div style="float: left; background-color: #ffe6e2;border-radius: 65px; padding-right: 3%;width:40%;">
                                         <img src="assets/img/decrease.jpg" style="border-radius: 5px;height: 30px;width: 30px;">
                                         <h6 style="display: inline; color: #fc573b;">2500</h6>
@@ -787,85 +1013,79 @@
                     </div>
 
                 </div>
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <div class="accordion" id="accordion">
+
+                        <div class="accordion-item border-0 mb-4">
+
+                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve" style="padding:0;border: none;background: none;">
+                                <div class="px-card p-3 rounded-3 carda">
+                                    <a href="#"
+                                      ><img
+                                        class="rounded-3 imga"
+                                        src="assets/img/flathead.jpg"
+                                        title=""
+                                        alt=""
+                                    /></a>
+                                    <div class="pt-4">
+                                        <h6>African Lion</h6>
+                                        <div style="float: left; background-color: #ffe6e2;border-radius: 65px; padding-right: 3%;width:40%;">
+                                        <img src="assets/img/decrease.jpg" style="border-radius: 5px;height: 30px;width: 30px;">
+                                        <h6 style="display: inline; color: #fc573b;">2500</h6>
+                                        </div>
+                                        <div style="float: right; background-color: #caf8c3;border-radius: 65px; padding-right: 0%;width:55%;">
+                                          <img src="assets/img/tree.png" style="border-radius: 5px;height: 30px;width: 30px;">
+                                          <h6 style="display: inline; color: #3b7832;">dipterocarp forest</h6>
+                                          </div>
+                                          <br>
+                                          <br>
+                                          <div style="float: left; background-color: #fbffb0;border-radius: 65px; padding-right: 3%;width:40%;">
+                                              <img src="assets/img/time.png" style="border-radius: 5px;height: 30px;width: 30px;">
+                                              <h6 style="display: inline; color: #898000;">2008</h6>
+                                          </div>
+                                          <div style="float: right; background-color: #90ccfc;border-radius: 65px; padding-right: 3%;">
+                                              <img src="assets/img/earth.png" style="border-radius: 5px;height: 30px;width: 30px;">
+                                              <h6 style="display: inline; color: #0063b3;">Southeast Asia</h6>
+                                          </div>
+                                          
+                                      </div>
+                                    
+                                </div>
+                            </button>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
             <br>
-
-            <div id="collapseNine" class="accordion-collapse collapse border-0" aria-labelledby="headingNine" data-bs-parent="#accordion9">
-                <div class="accordion-body">
-                    <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
-                        <div class="container" style="background-color: #f0f7ff; min-height: 400px;">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 col-md-12 image-column p-0">
-                                    <div class="img-box box-shadow" style="margin-left: 3%;">
-                                        <div class="box-loader">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                        <img class="img-fluid" src="images/360.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
-                                    <div class="section-title mb-4" style="padding-top: 40px;">
-                                        <!-- <div class="title-effect">
-                                          <div class="bar bar-top"></div>
-                                          <div class="bar bar-right"></div>
-                                          <div class="bar bar-bottom"></div>
-                                          <div class="bar bar-left"></div>
-                                        </div> -->
-                                        <h6>360 Degree Reporting</h6>
-                                        <!-- <h2>We're Building Modern And High Software</h2> -->
-                                    </div>
-                                    <ul class="list-unstyled list-icon mb-4">
-                                        <li class="mb-3">
-                                            <i class="la la-check"></i>
-                                            Business Suites extends extensive reporting.<br>
-                                        <li class="mb-3">
-                                            <i class="la la-check"></i>
-                                            User has facility to export reports in XLS or CSV format. Customized PDF reports are available depending on formats and labels.
-                                            </i>
-                                    </ul>
-                                    <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
-                                      <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
-                                    </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
             <div id="collapseTen" class="accordion-collapse collapse border-0" aria-labelledby="headingTen" data-bs-parent="#accordion10">
                 <div class="accordion-body">
                     <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
-                        <div class="container" style="background-color: #f0f7ff;min-height: 400px;">
+                        <div class="container accor">
                             <div class="row align-items-center">
-                                <div class="col-lg-6 col-md-12 image-column p-0">
-                                    <div class="img-box box-shadow" style="margin-left: 3%;">
-                                        <div class="box-loader">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                        <img class="img-fluid" src="images/Lead_Generation.jpg" alt="">
-                                    </div>
+                                <div class="col-lg-6 col-md-12 image-column" style="padding: 2rem;">
+                                        <img
+                                        class="rounded-3 imga"
+                                        src="assets/img/afreicangoldencat-transformed.jpeg"
+                                        title=""
+                                        alt=""
+                                    />
                                 </div>
                                 <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
                                     <div class="section-title mb-4" style="padding-top: 40px;">
-                                        <!-- <div class="title-effect">
-                                          <div class="bar bar-top"></div>
-                                          <div class="bar bar-right"></div>
-                                          <div class="bar bar-bottom"></div>
-                                          <div class="bar bar-left"></div>
-                                        </div> -->
-                                        <h6>Sales Forecasting</h6>
-                                        <!-- <h2>We're Building Modern And High Software</h2> -->
+                                        <h5>Andean mountain cat</h5>
                                     </div>
                                     <ul class="list-unstyled list-icon mb-4">
-                                        <p>Business Suite CRM has state of art Sales Forecasting.</p>
-                                        <li class="mb-3"><i class="la la-check"></i> Sales Forecasting shall help decision makers to identify revenue generated in next four month.</li>
-                                        <li class="mb-3"><i class="la la-check"></i> Dynamic control allows user to select starting month and BS –CRM predictor BS –CRM will analyze entire data.</li>
-                                        <li class="mb-3"><i class="la la-check"></i> It will show elegant sliced data based on months.</li>
-                                        <li class="mb-3"><i class="la la-check"></i> Over and above Sales agent wise revenue shall be seen under Charts.</li>
+                                        <li class="mb-3">
+                                            <i class="la la-check"></i>
+                                            Fewer than 1,400 endangered Andean cats remain.8 Before 1998, the only evidence scientists had that it existed at all were two photographs. These endangered cats only reach about 2 feet long and 18 pounds as adults.<br>
+
+The appearance and high-altitude habitat call to mind the snow leopard. But unlike the snow leopard, there is far less conservation funding to help this cat. Two groups, the Andean Cat Alliance and the Small Cat Conservation Alliance, mainly assist with conservation efforts for this felid species. Habitat loss and degradation rank as the top reasons for the declining population.
+                                            </i>
                                     </ul>
                                     <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
                                       <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
@@ -879,31 +1099,25 @@
             <div id="collapseEleven" class="accordion-collapse collapse border-0" aria-labelledby="headingEleven" data-bs-parent="#accordion11">
                 <div class="accordion-body">
                     <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
-                        <div class="container" style="background-color: #f0f7ff;min-height: 400px;">
+                        <div class="container accor">
                             <div class="row align-items-center">
-                                <div class="col-lg-6 col-md-12 image-column p-0">
-                                    <div class="img-box box-shadow" style="margin-left: 3%;">
-                                        <div class="box-loader">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                        <img class="img-fluid" src="images/Lead_Generation.jpg" alt="">
-                                    </div>
+                                <div class="col-lg-6 col-md-12 image-column" style="padding: 2rem;">
+                                        <img
+                                        class="rounded-3 imga"
+                                        src="assets/img/afreicangoldencat-transformed.jpeg"
+                                        title=""
+                                        alt=""
+                                    />
                                 </div>
                                 <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
                                     <div class="section-title mb-4" style="padding-top: 40px;">
-                                        <!-- <div class="title-effect">
-                                          <div class="bar bar-top"></div>
-                                          <div class="bar bar-right"></div>
-                                          <div class="bar bar-bottom"></div>
-                                          <div class="bar bar-left"></div>
-                                        </div> -->
-                                        <h6>Dashboards</h6>
-                                        <!-- <h2>We're Building Modern And High Software</h2> -->
+                                        <h5>Clouded leopard</h5>
                                     </div>
                                     <ul class="list-unstyled list-icon mb-4">
-                                        <li class="mb-3"><i class="la la-check"></i>Stunning dashboards, calendars, Pie Charts, Bar Charts extends rich analysis to decision makers. Real time data shall help decision makers to navigate organization more effectively.</i>
+                                        <li class="mb-3">
+                                            <i class="la la-check"></i>
+                                            The clouded leopard population is estimated to be less than 10,000 throughout Southeast Asia has been declared extinct in Taiwan.9 IUCN has listed the animal as vulnerable since 2008, and the main threats against it are habitat loss from extensive deforestation and commercial poaching for the wildlife trade. Populations of clouded leopard in Borneo have an advantage over ones in other areas due to the lack of tigers and other leopard species competing for resources.10
+                                            </i>
                                     </ul>
                                     <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
                                       <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
@@ -917,36 +1131,28 @@
             <div id="collapseTwelve" class="accordion-collapse collapse border-0" aria-labelledby="headingTwelve" data-bs-parent="#accordion12">
                 <div class="accordion-body">
                     <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
-                        <div class="container" style="background-color: #f0f7ff; min-height: 400px;">
+                        <div class="container accor">
                             <div class="row align-items-center">
-                                <div class="col-lg-6 col-md-12 image-column p-0">
-                                    <div class="img-box box-shadow" style="margin-left: 3%;">
-                                        <div class="box-loader">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                        <img class="img-fluid" src="images/Lead_Generation.jpg" alt="">
-                                    </div>
+                                <div class="col-lg-6 col-md-12 image-column" style="padding: 2rem;">
+                                        <img
+                                        class="rounded-3 imga"
+                                        src="assets/img/afreicangoldencat-transformed.jpeg"
+                                        title=""
+                                        alt=""
+                                    />
                                 </div>
                                 <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
                                     <div class="section-title mb-4" style="padding-top: 40px;">
-                                        <!-- <div class="title-effect">
-                                          <div class="bar bar-top"></div>
-                                          <div class="bar bar-right"></div>
-                                          <div class="bar bar-bottom"></div>
-                                          <div class="bar bar-left"></div>
-                                        </div> -->
-                                        <h6>Document Management</h6>
-                                        <!-- <h2>We're Building Modern And High Software</h2> -->
+                                        <h5>African lion</h5>
                                     </div>
                                     <ul class="list-unstyled list-icon mb-4">
                                         <li class="mb-3">
                                             <i class="la la-check"></i>
-                                            Collaborative platform of Business Suite extends powers to users to upload scanned documents in any format including pdf, doc, xls, csv, jpg, png, psd and many more. Document are published in internal platform and allows other users to access them.
-                                        <li class="mb-3">
-                                            <i class="la la-check"></i>
-                                            Associates sitting at remote locations can upload or download documents as desired and maintain up to date track of documents revisions. Role based access to documents can be defined. All documents stays safe on cloud with publishers name, published date, type of document and with document group identity.
+                                            Not yet endangered but listed as vulnerable with only around 23,000 (at best) still living in the wild, lions face rapidly decreasing numbers.<br>
+
+                                            The king of the jungle has lost 30 to 50 percent of its population in the last two decades alone.<br>
+                                           
+                                           Because of habitat loss and conflict with humans, most lions only inhabit eastern and southern Africa, with their numbers in severe decline. Conservation groups are working to preserve habitat so that lions have enough room to hunt and roam, but also to provide people with tools and knowledge for how to coexist with these big cats and reduce the number of deaths due to snaring.
                                             </i>
                                     </ul>
                                     <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
@@ -959,319 +1165,6 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-4">
-                    <div class="accordion" id="accordion">
-
-                        <div class="accordion-item border-0 mb-4">
-
-                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen" style="padding:0;border: none;background: none;">
-                                <div class="px-card p-3 rounded-3 carda">
-                                    <a href="#"
-                                      ><img
-                                        class="rounded-3 imga"
-                                        src="assets/img/flathead.jpg"
-                                        title=""
-                                        alt=""
-                                    /></a>
-                                    <div class="pt-4">
-                                        <h6>Flat-headed cat</h6>
-                                        <div style="float: left; background-color: #ffe6e2;border-radius: 65px; padding-right: 3%;width:40%;">
-                                        <img src="assets/img/decrease.jpg" style="border-radius: 5px;height: 30px;width: 30px;">
-                                        <h6 style="display: inline; color: #fc573b;">2500</h6>
-                                        </div>
-                                        <div style="float: right; background-color: #caf8c3;border-radius: 65px; padding-right: 0%;width:55%;">
-                                          <img src="assets/img/tree.png" style="border-radius: 5px;height: 30px;width: 30px;">
-                                          <h6 style="display: inline; color: #3b7832;">dipterocarp forest</h6>
-                                          </div>
-                                          <br>
-                                          <br>
-                                          <div style="float: left; background-color: #fbffb0;border-radius: 65px; padding-right: 3%;width:40%;">
-                                              <img src="assets/img/time.png" style="border-radius: 5px;height: 30px;width: 30px;">
-                                              <h6 style="display: inline; color: #898000;">2008</h6>
-                                          </div>
-                                          <div style="float: right; background-color: #90ccfc;border-radius: 65px; padding-right: 3%;">
-                                              <img src="assets/img/earth.png" style="border-radius: 5px;height: 30px;width: 30px;">
-                                              <h6 style="display: inline; color: #0063b3;">Southeast Asia</h6>
-                                          </div>
-                                          
-                                      </div>
-                                    
-                                </div>
-                            </button>
-
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4">
-                    <div class="accordion" id="accordion">
-
-                        <div class="accordion-item border-0 mb-4">
-
-                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen" style="padding:0;border: none;background: none;">
-                                <div class="px-card p-3 rounded-3 carda">
-                                    <a href="#"
-                                      ><img
-                                        class="rounded-3 imga"
-                                        src="assets/img/flathead.jpg"
-                                        title=""
-                                        alt=""
-                                    /></a>
-                                    <div class="pt-4">
-                                        <h6>Flat-headed cat</h6>
-                                        <div style="float: left; background-color: #ffe6e2;border-radius: 65px; padding-right: 3%;width:40%;">
-                                        <img src="assets/img/decrease.jpg" style="border-radius: 5px;height: 30px;width: 30px;">
-                                        <h6 style="display: inline; color: #fc573b;">2500</h6>
-                                        </div>
-                                        <div style="float: right; background-color: #caf8c3;border-radius: 65px; padding-right: 0%;width:55%;">
-                                          <img src="assets/img/tree.png" style="border-radius: 5px;height: 30px;width: 30px;">
-                                          <h6 style="display: inline; color: #3b7832;">dipterocarp forest</h6>
-                                          </div>
-                                          <br>
-                                          <br>
-                                          <div style="float: left; background-color: #fbffb0;border-radius: 65px; padding-right: 3%;width:40%;">
-                                              <img src="assets/img/time.png" style="border-radius: 5px;height: 30px;width: 30px;">
-                                              <h6 style="display: inline; color: #898000;">2008</h6>
-                                          </div>
-                                          <div style="float: right; background-color: #90ccfc;border-radius: 65px; padding-right: 3%;">
-                                              <img src="assets/img/earth.png" style="border-radius: 5px;height: 30px;width: 30px;">
-                                              <h6 style="display: inline; color: #0063b3;">Southeast Asia</h6>
-                                          </div>
-                                          
-                                      </div>
-                                    
-                                </div>
-                            </button>
-
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4">
-                    <div class="accordion" id="accordion">
-
-                        <div class="accordion-item border-0 mb-4">
-
-                            <button class="collapsed btnMain" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen" style="padding:0;border: none;background: none;">
-                                <div class="px-card p-3 rounded-3 carda">
-                                    <a href="#"
-                                      ><img
-                                        class="rounded-3 imga"
-                                        src="assets/img/flathead.jpg"
-                                        title=""
-                                        alt=""
-                                    /></a>
-                                    <div class="pt-4">
-                                        <h6>Flat-headed cat</h6>
-                                        <div style="float: left; background-color: #ffe6e2;border-radius: 65px; padding-right: 3%;width:40%;">
-                                        <img src="assets/img/decrease.jpg" style="border-radius: 5px;height: 30px;width: 30px;">
-                                        <h6 style="display: inline; color: #fc573b;">2500</h6>
-                                        </div>
-                                        <div style="float: right; background-color: #caf8c3;border-radius: 65px; padding-right: 0%;width:55%;">
-                                          <img src="assets/img/tree.png" style="border-radius: 5px;height: 30px;width: 30px;">
-                                          <h6 style="display: inline; color: #3b7832;">dipterocarp forest</h6>
-                                          </div>
-                                          <br>
-                                          <br>
-                                          <div style="float: left; background-color: #fbffb0;border-radius: 65px; padding-right: 3%;width:40%;">
-                                              <img src="assets/img/time.png" style="border-radius: 5px;height: 30px;width: 30px;">
-                                              <h6 style="display: inline; color: #898000;">2008</h6>
-                                          </div>
-                                          <div style="float: right; background-color: #90ccfc;border-radius: 65px; padding-right: 3%;">
-                                              <img src="assets/img/earth.png" style="border-radius: 5px;height: 30px;width: 30px;">
-                                              <h6 style="display: inline; color: #0063b3;">Southeast Asia</h6>
-                                          </div>
-                                          
-                                      </div>
-                                    
-                                </div>
-                            </button>
-
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-            <br>
-            <div id="collapseThirteen" class="accordion-collapse collapse border-0" aria-labelledby="headingThirteen" data-bs-parent="#accordion13">
-                <div class="accordion-body">
-                    <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
-                        <div class="container" style="background-color: #f0f7ff;min-height: 400px;">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 col-md-12 image-column p-0">
-                                    <div class="img-box box-shadow" style="margin-left: 3%;">
-                                        <div class="box-loader">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                        <img class="img-fluid" src="images/Lead_Generation.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
-                                    <div class="section-title mb-4" style="padding-top: 40px;">
-                                        <!-- <div class="title-effect">
-                                          <div class="bar bar-top"></div>
-                                          <div class="bar bar-right"></div>
-                                          <div class="bar bar-bottom"></div>
-                                          <div class="bar bar-left"></div>
-                                        </div> -->
-                                        <h6>Quotation Management</h6>
-                                        <!-- <h2>We're Building Modern And High Software</h2> -->
-                                    </div>
-                                    <ul class="list-unstyled list-icon mb-4">
-                                        <li class="mb-3"><i class="la la-check"></i>Business Suite CRM has Proposal / Quotation Management and Order Management. Sales agent can send emails and attachments in proposals using CRM.</i>
-                                    </ul>
-                                    <div class="section-title mb-4">
-                                        <h6>Order Management</h6>
-                                    </div>
-                                    <ul class="list-unstyled list-icon mb-4">
-                                        <li class="mb-3"><i class="la la-check"></i>Orders can be booked using Business Suite CRM. Back Office people can manage orders client wise. Elegant charts and dashboard will help decision makers to classify orders product wise.</i>
-                                    </ul>
-                                    <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
-                                      <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
-                                    </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-            <div id="collapseFourteen" class="accordion-collapse collapse border-0" aria-labelledby="headingFourteen" data-bs-parent="#accordion14">
-                <div class="accordion-body">
-                    <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
-                        <div class="container" style="background-color: #f0f7ff;min-height: 400px;">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 col-md-12 image-column p-0">
-                                    <div class="img-box box-shadow" style="margin-left: 3%;">
-                                        <div class="box-loader">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                        <img class="img-fluid" src="images/Lead_Generation.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
-                                    <div class="section-title mb-4" style="padding-top: 40px;">
-                                        <!-- <div class="title-effect">
-                                          <div class="bar bar-top"></div>
-                                          <div class="bar bar-right"></div>
-                                          <div class="bar bar-bottom"></div>
-                                          <div class="bar bar-left"></div>
-                                        </div> -->
-                                        <h6>TIMESHEET MANAGEMENT</h6>
-                                        <!-- <h2>We're Building Modern And High Software</h2> -->
-                                    </div>
-                                    <ul class="list-unstyled list-icon mb-4">
-                                        <li class="mb-3"><i class="la la-check"></i>Business Suite CMR has best time tracking system for a small and medium business. Very simple and user friendly interactive interface helps to record time spent on projects. Time tracker will actually improves employee productivity.</i>
-                                        <li class="mb-3"><i class="la la-check"></i>Build your own team, projects and you are ready with timesheet management. Excellent calendars gives day wise stunning analysis. Color coding of project prepares beautiful grid reports.</i>
-                                    </ul>
-                                    <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
-                                      <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
-                                    </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-            <div id="collapseFifteen" class="accordion-collapse collapse border-0" aria-labelledby="headingFifteen" data-bs-parent="#accordion15">
-                <div class="accordion-body">
-                    <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
-                        <div class="container" style="background-color: #f0f7ff; min-height: 400px;">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 col-md-12 image-column p-0">
-                                    <div class="img-box box-shadow" style="margin-left: 3%;">
-                                        <div class="box-loader">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                        <img class="img-fluid" src="images/Lead_Generation.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
-                                    <div class="section-title mb-4" style="padding-top: 40px;">
-                                        <!-- <div class="title-effect">
-                                          <div class="bar bar-top"></div>
-                                          <div class="bar bar-right"></div>
-                                          <div class="bar bar-bottom"></div>
-                                          <div class="bar bar-left"></div>
-                                        </div> -->
-                                        <h6>Task Management</h6>
-                                        <!-- <h2>We're Building Modern And High Software</h2> -->
-                                    </div>
-                                    <ul class="list-unstyled list-icon mb-4">
-                                        <li class="mb-3"><i class="la la-check"></i>
-                                            Managing day to day activities for Accounts, Sales, Back-office team with efficient Task Management.<br>
-                                        <li class="mb-3"><i class="la la-check"></i>
-                                            Business Suite has powerful feature to create new tasks and collaborate tasks amongst team. BS helps bringing accounting, sales, back-office and operator team on common platform.
-                                        </i>
-                                    </ul>
-                                    <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
-                                      <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
-                                    </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-            <div id="collapseSixteen" class="accordion-collapse collapse border-0" aria-labelledby="headingSixteen" data-bs-parent="#accordion16">
-                <div class="accordion-body">
-                    <section class="position-relative bg-contain bg-pos-l " data-bg-img="" style="padding: 0 !important;">
-                        <div class="container" style="background-color: #f0f7ff;min-height: 400px;">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 col-md-12 image-column p-0">
-                                    <div class="img-box box-shadow" style="margin-left: 3%;">
-                                        <div class="box-loader">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                        <img class="img-fluid" src="images/Lead_Generation.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
-                                    <div class="section-title mb-4" style="padding-top: 40px;">
-                                        <!-- <div class="title-effect">
-                                          <div class="bar bar-top"></div>
-                                          <div class="bar bar-right"></div>
-                                          <div class="bar bar-bottom"></div>
-                                          <div class="bar bar-left"></div>
-                                        </div> -->
-                                        <h6>Ticket Management</h6>
-                                        <!-- <h2>We're Building Modern And High Software</h2> -->
-                                    </div>
-                                    <ul class="list-unstyled list-icon mb-4">
-                                        <p>Ticket Management is very important feature of CRM. Client can raise issue /ticket with their username and password. This ticket shall be visible to administrator or staff user on another end and they can respond based on priority of ticket.</p>
-                                        <li class="mb-3"><i class="la la-check"></i> Due and Over Due tickets segregated by system automatically</li>
-                                        <li class="mb-3"><i class="la la-check"></i> Dynamic Category, Priority, Source, etc.</li>
-                                        <li class="mb-3"><i class="la la-check"></i> Groups or Teams have restricted access to centralized data</li>
-                                        <li class="mb-3"><i class="la la-check"></i> Priority can be monitored by admin by defining hours control</li>
-                                        <li class="mb-3"><i class="la la-check"></i> Dynamic and based on SOA model</li>
-                                        <li class="mb-3"><i class="la la-check"></i> Powerful Search – through keywords, subject, priority, status, combinations of Check boxes etc.</li>
-
-                                        <li><i class="la la-check"></i> Unique Admin control centre contains : Company, Department, User management, etc.</li>
-                                    </ul>
-                                    <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
-                                      <span> </span><span>M</span><span>o</span><span>r</span><span>e</span>
-                                    </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
 
         </div>
     </section>
@@ -2370,6 +2263,72 @@
 
         </div>
     </section>
+
+    <footer class="footer footer-bg bg-body border-top border-gray-300">
+        <div class="py-7">
+          <div class="container">
+            <div class="row gy-5">
+              <div class="col-lg-3 me-auto">
+                <div class="pb-4">
+                  <img
+                    class="footer-logo-light"
+                    src="assets/img/logo.png"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="footer-logo-dark"
+                    src="assets/img/logo.png"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <p>
+                  The Great Cat Rescue: Saving Lives, One Meow at a Time
+                </p>
+                <p class="text-white-85 small m-0">
+                  © 2023 CATSTATS
+                </p>
+              </div>
+              <div class="col-lg-3 col-6">
+                <h5 class="footer-title-01">Links</h5>
+                <ul class="list-unstyled footer-link-01 m-0">
+                  <li><a class="" href="/index.html">Home</a></li>
+                  <li><a class="" href="/endangered.html">Endangered</a></li>
+                  <li><a class="" href="/extinct.html">Extinct</a></li>
+                  <li><a class="" href="/shop.html">Store</a></li>
+                  <li><a class="" href="/about.html">About Us</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <h5 class="footer-title-01">Stay up to date</h5>
+                <form>
+                  <div class="d-flex flex-row">
+                    <input
+                      type="email"
+                      class="form-control me-2"
+                      placeholder="Enter your username"
+                    />
+                    <button class="btn btn-primary flex-shrink-0">
+                      <i class="bi-envelope"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="container">
+          <div class="row py-3 gy-3">
+            <div class="col-md-6">
+              <p class="text-white-85 small m-0">
+                © 2023 Catstats is Proudly Powered by jash mistry
+              </p>
+            </div>
+          </div>
+        </div> -->
+      </footer>
 
     </div>
     <!-- script start --><!--bootstrap-->

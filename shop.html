@@ -17,30 +17,42 @@
   <link href="assets/css/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
+  <div id="loading" class="loading-preloader1">
+    <div class="loading-preloader1-in">
+      <lottie-player
+        src="https://assets2.lottiefiles.com/packages/lf20_c5vj9laj.json"
+        background="#051027"
+        speed="2"
+        style="width: 300px; height: 300px"
+        loop
+        autoplay
+      ></lottie-player>
+    </div>
+  </div>
 
     <div class="wrapper">
-    <header
-        class="main-header fixed-top headroom border-bottom border-gray-200 @@classes"
-      >
-        <nav class="navbar navbar-expand-lg">
-          <div class="container align-items-center">
-            <div class="logo">
-              <a class="navbar-brand" href="index.html"
-                ><img
-                  class="logo-dark"
-                  style="height: 50px; width: 150px; "
-                  src="assets/img/logo.png"
-                  title=""
-                  alt="" />
-                <img
-                  class="logo-light"
-                  style="height: 50px; width: 150px; "
-                  src="assets/img/logo.png"
-                  title=""
-                  alt=""
-              /></a>
-            </div>
-            <div class="header-end d-flex justify-content-end">
+      <header
+      class="main-header fixed-top headroom border-bottom border-gray-200 @@classes"
+    >
+      <nav class="navbar navbar-expand-lg">
+        <div class="container align-items-center">
+          <div class="logo">
+            <a class="navbar-brand" href="index.html"
+              ><img
+                class="logo-dark"
+                style="height: 50px; width: 150px"
+                src="assets/img/logo.png"
+                title=""
+                alt="" />
+              <img
+                class="logo-light"
+                style="height: 50px; width: 150px"
+                src="assets/img/logo.png"
+                title=""
+                alt=""
+            /></a>
+          </div>
+          <div class="header-end d-flex justify-content-end">
             <div
               class="offcanvas nav-offcanvas offcanvas-start"
               tabindex="-1"
@@ -61,126 +73,108 @@
               <div class="offcanvas-body">
                 <ul class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="index.html"
-  
+                    <a class="nav-link dropdown-toggle" href="index.html"
                       >Home</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="endangered.html"
-  
+                    <a class="nav-link dropdown-toggle" href="endangered.html"
                       >Endangered</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="extinct.html"
-  
-                      >Extinct</a
-                    >
+                    <a class="nav-link" href="extinct.html">Extinct</a>
                   </li>
                   <li class="nav-item">
-                      <a
-                        class="nav-link"
-                        href="shop.html"
-    
-                        >Store</a
-                      >
+                    <a class="nav-link" href="shop.html">Store</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="test.html">Where-Abouts</a>
                     </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="#"
-  
-                      >About Us</a
-                    >
-                  </li>
                 </ul>
               </div>
               <div class="offcanvas-footer"></div>
             </div>
             <!-- Switch -->
-              <div class="h-col h-switch dropdown">
-                <button
-                  class="theme-switch h-icon dropdown-toggle"
-                  id="bd-theme"
-                  type="button"
-                  aria-expanded="false"
-                  data-bs-toggle="dropdown"
-                  data-bs-display="static"
-                >
-                  <span class="bi my-1 theme-icon-active"
-                    ><i class="bi-circle-half"></i> </span
-                  ><span class="d-none">Toggle theme</span>
-                </button>
-                <ul
-                  class="dropdown-menu dropdown-menu-end"
-                  aria-labelledby="bd-theme"
-                >
-                  <li>
-                    <button
-                      type="button"
-                      class="dropdown-item"
-                      data-bs-theme-value="light"
-                    >
-                      <span class="bi me-2 opacity-50 theme-icon"
-                        ><i class="bi-sun-fill"></i> </span
-                      >Light
-                      <span class="bi ms-auto d-none"
-                        ><i class="bi-check2"></i
-                      ></span>
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      type="button"
-                      class="dropdown-item"
-                      data-bs-theme-value="dark"
-                    >
-                      <span class="bi me-2 opacity-50 theme-icon"
-                        ><i class="bi-moon-stars-fill"></i> </span
-                      >Dark
-                      <span class="bi ms-auto d-none"
-                        ><i class="bi-check2"></i
-                      ></span>
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      type="button"
-                      class="dropdown-item active"
-                      data-bs-theme-value="auto"
-                    >
-                      <span class="bi me-2 opacity-50 theme-icon"
-                        ><i class="bi-circle-half"></i> </span
-                      >Auto
-                      <span class="bi ms-auto d-none"
-                        ><i class="bi-check2"></i
-                      ></span>
-                    </button>
-                  </li>
-                </ul>
-              </div>
-              <!-- Mobile Toggle -->
-              <div class="h-col h-toggler d-xl-none">
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="offcanvas"
-                  data-bs-target="#offcanvas_Header_01"
-                  aria-controls="offcanvas_Header_01"
-                >
-                  <span class="px-navbar-toggler-icon"></span>
-                </button>
-              </div>
+            <div class="h-col h-switch dropdown">
+              <button
+                class="theme-switch h-icon dropdown-toggle"
+                id="bd-theme"
+                type="button"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                data-bs-display="static"
+              >
+                <span class="bi my-1 theme-icon-active"
+                  ><i class="bi-circle-half"></i> </span
+                ><span class="d-none">Toggle theme</span>
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="bd-theme"
+              >
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item"
+                    data-bs-theme-value="light"
+                  >
+                    <span class="bi me-2 opacity-50 theme-icon"
+                      ><i class="bi-sun-fill"></i> </span
+                    >Light
+                    <span class="bi ms-auto d-none"
+                      ><i class="bi-check2"></i
+                    ></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item"
+                    data-bs-theme-value="dark"
+                  >
+                    <span class="bi me-2 opacity-50 theme-icon"
+                      ><i class="bi-moon-stars-fill"></i> </span
+                    >Dark
+                    <span class="bi ms-auto d-none"
+                      ><i class="bi-check2"></i
+                    ></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item active"
+                    data-bs-theme-value="auto"
+                  >
+                    <span class="bi me-2 opacity-50 theme-icon"
+                      ><i class="bi-circle-half"></i> </span
+                    >Auto
+                    <span class="bi ms-auto d-none"
+                      ><i class="bi-check2"></i
+                    ></span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <!-- Mobile Toggle -->
+            <div class="h-col h-toggler d-xl-none">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvas_Header_01"
+                aria-controls="offcanvas_Header_01"
+              >
+                <span class="px-navbar-toggler-icon"></span>
+              </button>
             </div>
           </div>
-        </nav>
+        </div>
+      </nav>
     </header>
  
 
@@ -240,39 +234,16 @@
                     <a href="#"
                       ><img
                         class="product-card-img"
-                        src="assets/img/product-8.jpg"
+                        src="assets/img/CATSTATS (1).jpg"
                         title=""
                         alt=""
                     /></a>
-                    <div class="product-card-timer">
-                      <ul
-                        class="countdown bg-dark bg-opacity-25 blur-md"
-                        data-countdown-date="12/30/2023 12:00:00"
-                      >
-                        <li>
-                          <div data-days></div>
-                          <span>Days</span>
-                        </li>
-                        <li>
-                          <div data-hours></div>
-                          <span>Hours</span>
-                        </li>
-                        <li>
-                          <div data-minutes></div>
-                          <span>minutes</span>
-                        </li>
-                        <li>
-                          <div data-seconds></div>
-                          <span>seconds</span>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div class="product" >
                       <div class="product-title d-flex align-items-center">
                           <h6 class="m-0">
                             <a class="text-reset stretched-linka" href="#"
-                              >Space Shapes #3</a
+                              >Merch</a
                             >
                           </h6>
                           <button
@@ -285,22 +256,14 @@
                       <div class="product-actions d-flex fs-sm">
                           <div class="price col lh-sm">
                             <span class="m-0"
-                              >Mirrored
+                              >Price
                               <span class="text-body fw-400 w-100 d-block"
-                                >18 ETH</span
-                              ></span
-                            >
-                          </div>
-                          <div class="price col lh-sm">
-                            <span class="m-0"
-                              >3.99 ETH
-                              <span class="text-body fw-400 w-100 d-block"
-                                >1/1</span
+                                >18$</span
                               ></span
                             >
                           </div>
                       </div>
-                      <div class="product-card-cart" data-name="Orange" data-price="12" data-id="0" data-count="1">
+                      <div class="product-card-cart" data-name="Merch" data-price="18" data-id="0" data-count="1">
                           <input type="text" class="count" value="1" style="visibility: hidden;" />
                       <button class="btn btn-primary w-100">Add To Cart</button>
                   </div>
@@ -313,39 +276,16 @@
                     <a href="#"
                       ><img
                         class="product-card-img"
-                        src="assets/img/product-8.jpg"
+                        src="assets/img/CATSTATS (2).jpg"
                         title=""
                         alt=""
                     /></a>
-                    <div class="product-card-timer">
-                      <ul
-                        class="countdown bg-dark bg-opacity-25 blur-md"
-                        data-countdown-date="12/30/2023 12:00:00"
-                      >
-                        <li>
-                          <div data-days></div>
-                          <span>Days</span>
-                        </li>
-                        <li>
-                          <div data-hours></div>
-                          <span>Hours</span>
-                        </li>
-                        <li>
-                          <div data-minutes></div>
-                          <span>minutes</span>
-                        </li>
-                        <li>
-                          <div data-seconds></div>
-                          <span>seconds</span>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div class="product" >
                       <div class="product-title d-flex align-items-center">
                           <h6 class="m-0">
                             <a class="text-reset stretched-linka" href="#"
-                              >Space Shapes #3</a
+                              >Merch</a
                             >
                           </h6>
                           <button
@@ -358,22 +298,14 @@
                       <div class="product-actions d-flex fs-sm">
                           <div class="price col lh-sm">
                             <span class="m-0"
-                              >Mirrored
+                              >price
                               <span class="text-body fw-400 w-100 d-block"
-                                >18 ETH</span
-                              ></span
-                            >
-                          </div>
-                          <div class="price col lh-sm">
-                            <span class="m-0"
-                              >3.99 ETH
-                              <span class="text-body fw-400 w-100 d-block"
-                                >1/1</span
+                                >18$</span
                               ></span
                             >
                           </div>
                       </div>
-                      <div class="product-card-cart" data-name="Orange" data-price="12" data-id="0" data-count="1">
+                      <div class="product-card-cart" data-name="Merch" data-price="18" data-id="0" data-count="1">
                           <input type="text" class="count" value="1" style="visibility: hidden;" />
                       <button class="btn btn-primary w-100">Add To Cart</button>
                   </div>
@@ -386,39 +318,16 @@
                     <a href="#"
                       ><img
                         class="product-card-img"
-                        src="assets/img/product-8.jpg"
+                        src="assets/img/CATSTATS (3).jpg"
                         title=""
                         alt=""
                     /></a>
-                    <div class="product-card-timer">
-                      <ul
-                        class="countdown bg-dark bg-opacity-25 blur-md"
-                        data-countdown-date="12/30/2023 12:00:00"
-                      >
-                        <li>
-                          <div data-days></div>
-                          <span>Days</span>
-                        </li>
-                        <li>
-                          <div data-hours></div>
-                          <span>Hours</span>
-                        </li>
-                        <li>
-                          <div data-minutes></div>
-                          <span>minutes</span>
-                        </li>
-                        <li>
-                          <div data-seconds></div>
-                          <span>seconds</span>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div class="product" >
                       <div class="product-title d-flex align-items-center">
                           <h6 class="m-0">
                             <a class="text-reset stretched-linka" href="#"
-                              >Space Shapes #3</a
+                              >Merch</a
                             >
                           </h6>
                           <button
@@ -431,22 +340,14 @@
                       <div class="product-actions d-flex fs-sm">
                           <div class="price col lh-sm">
                             <span class="m-0"
-                              >Mirrored
+                              >price
                               <span class="text-body fw-400 w-100 d-block"
-                                >18 ETH</span
-                              ></span
-                            >
-                          </div>
-                          <div class="price col lh-sm">
-                            <span class="m-0"
-                              >3.99 ETH
-                              <span class="text-body fw-400 w-100 d-block"
-                                >1/1</span
+                                >18$</span
                               ></span
                             >
                           </div>
                       </div>
-                      <div class="product-card-cart" data-name="Orange" data-price="12" data-id="0" data-count="1">
+                      <div class="product-card-cart" data-name="Merch" data-price="18" data-id="0" data-count="1">
                           <input type="text" class="count" value="1" style="visibility: hidden;" />
                       <button class="btn btn-primary w-100">Add To Cart</button>
                   </div>
@@ -459,39 +360,16 @@
                     <a href="#"
                       ><img
                         class="product-card-img"
-                        src="assets/img/product-8.jpg"
+                        src="assets/img/CATSTATS (4).jpg"
                         title=""
                         alt=""
                     /></a>
-                    <div class="product-card-timer">
-                      <ul
-                        class="countdown bg-dark bg-opacity-25 blur-md"
-                        data-countdown-date="12/30/2023 12:00:00"
-                      >
-                        <li>
-                          <div data-days></div>
-                          <span>Days</span>
-                        </li>
-                        <li>
-                          <div data-hours></div>
-                          <span>Hours</span>
-                        </li>
-                        <li>
-                          <div data-minutes></div>
-                          <span>minutes</span>
-                        </li>
-                        <li>
-                          <div data-seconds></div>
-                          <span>seconds</span>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div class="product" >
                       <div class="product-title d-flex align-items-center">
                           <h6 class="m-0">
                             <a class="text-reset stretched-linka" href="#"
-                              >Space Shapes #3</a
+                              >Merch</a
                             >
                           </h6>
                           <button
@@ -504,22 +382,14 @@
                       <div class="product-actions d-flex fs-sm">
                           <div class="price col lh-sm">
                             <span class="m-0"
-                              >Mirrored
+                              >price
                               <span class="text-body fw-400 w-100 d-block"
-                                >18 ETH</span
-                              ></span
-                            >
-                          </div>
-                          <div class="price col lh-sm">
-                            <span class="m-0"
-                              >3.99 ETH
-                              <span class="text-body fw-400 w-100 d-block"
-                                >1/1</span
+                                >18$</span
                               ></span
                             >
                           </div>
                       </div>
-                      <div class="product-card-cart" data-name="Orange" data-price="12" data-id="0" data-count="1">
+                      <div class="product-card-cart" data-name="Merch" data-price="18" data-id="0" data-count="1">
                           <input type="text" class="count" value="1" style="visibility: hidden;" />
                       <button class="btn btn-primary w-100">Add To Cart</button>
                   </div>
@@ -532,39 +402,16 @@
                     <a href="#"
                       ><img
                         class="product-card-img"
-                        src="assets/img/product-8.jpg"
+                        src="assets/img/CATSTATS (6).jpg"
                         title=""
                         alt=""
                     /></a>
-                    <div class="product-card-timer">
-                      <ul
-                        class="countdown bg-dark bg-opacity-25 blur-md"
-                        data-countdown-date="12/30/2023 12:00:00"
-                      >
-                        <li>
-                          <div data-days></div>
-                          <span>Days</span>
-                        </li>
-                        <li>
-                          <div data-hours></div>
-                          <span>Hours</span>
-                        </li>
-                        <li>
-                          <div data-minutes></div>
-                          <span>minutes</span>
-                        </li>
-                        <li>
-                          <div data-seconds></div>
-                          <span>seconds</span>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div class="product" >
                       <div class="product-title d-flex align-items-center">
                           <h6 class="m-0">
                             <a class="text-reset stretched-linka" href="#"
-                              >Space Shapes #3</a
+                              >Merch</a
                             >
                           </h6>
                           <button
@@ -577,22 +424,14 @@
                       <div class="product-actions d-flex fs-sm">
                           <div class="price col lh-sm">
                             <span class="m-0"
-                              >Mirrored
+                              >price
                               <span class="text-body fw-400 w-100 d-block"
-                                >18 ETH</span
-                              ></span
-                            >
-                          </div>
-                          <div class="price col lh-sm">
-                            <span class="m-0"
-                              >3.99 ETH
-                              <span class="text-body fw-400 w-100 d-block"
-                                >1/1</span
+                                >18$</span
                               ></span
                             >
                           </div>
                       </div>
-                      <div class="product-card-cart" data-name="Orange" data-price="12" data-id="0" data-count="1">
+                      <div class="product-card-cart" data-name="Merch" data-price="18" data-id="0" data-count="1">
                           <input type="text" class="count" value="1" style="visibility: hidden;" />
                       <button class="btn btn-primary w-100">Add To Cart</button>
                   </div>
@@ -605,39 +444,16 @@
                     <a href="#"
                       ><img
                         class="product-card-img"
-                        src="assets/img/product-8.jpg"
+                        src="assets/img/CATSTATS (7).jpg"
                         title=""
                         alt=""
                     /></a>
-                    <div class="product-card-timer">
-                      <ul
-                        class="countdown bg-dark bg-opacity-25 blur-md"
-                        data-countdown-date="12/30/2023 12:00:00"
-                      >
-                        <li>
-                          <div data-days></div>
-                          <span>Days</span>
-                        </li>
-                        <li>
-                          <div data-hours></div>
-                          <span>Hours</span>
-                        </li>
-                        <li>
-                          <div data-minutes></div>
-                          <span>minutes</span>
-                        </li>
-                        <li>
-                          <div data-seconds></div>
-                          <span>seconds</span>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div class="product" >
                       <div class="product-title d-flex align-items-center">
                           <h6 class="m-0">
                             <a class="text-reset stretched-linka" href="#"
-                              >Space Shapes #3</a
+                              >Merch</a
                             >
                           </h6>
                           <button
@@ -650,22 +466,14 @@
                       <div class="product-actions d-flex fs-sm">
                           <div class="price col lh-sm">
                             <span class="m-0"
-                              >Mirrored
+                              >price
                               <span class="text-body fw-400 w-100 d-block"
-                                >18 ETH</span
-                              ></span
-                            >
-                          </div>
-                          <div class="price col lh-sm">
-                            <span class="m-0"
-                              >3.99 ETH
-                              <span class="text-body fw-400 w-100 d-block"
-                                >1/1</span
+                                >18$</span
                               ></span
                             >
                           </div>
                       </div>
-                      <div class="product-card-cart" data-name="Orange" data-price="12" data-id="0" data-count="1">
+                      <div class="product-card-cart" data-name="Merch" data-price="18" data-id="0" data-count="1">
                           <input type="text" class="count" value="1" style="visibility: hidden;" />
                       <button class="btn btn-primary w-100">Add To Cart</button>
                   </div>
@@ -678,39 +486,16 @@
                     <a href="#"
                       ><img
                         class="product-card-img"
-                        src="assets/img/product-8.jpg"
+                        src="assets/img/CATSTATS (8).jpg"
                         title=""
                         alt=""
                     /></a>
-                    <div class="product-card-timer">
-                      <ul
-                        class="countdown bg-dark bg-opacity-25 blur-md"
-                        data-countdown-date="12/30/2023 12:00:00"
-                      >
-                        <li>
-                          <div data-days></div>
-                          <span>Days</span>
-                        </li>
-                        <li>
-                          <div data-hours></div>
-                          <span>Hours</span>
-                        </li>
-                        <li>
-                          <div data-minutes></div>
-                          <span>minutes</span>
-                        </li>
-                        <li>
-                          <div data-seconds></div>
-                          <span>seconds</span>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div class="product" >
                       <div class="product-title d-flex align-items-center">
                           <h6 class="m-0">
                             <a class="text-reset stretched-linka" href="#"
-                              >Space Shapes #3</a
+                              >Merch</a
                             >
                           </h6>
                           <button
@@ -723,22 +508,14 @@
                       <div class="product-actions d-flex fs-sm">
                           <div class="price col lh-sm">
                             <span class="m-0"
-                              >Mirrored
+                              >price
                               <span class="text-body fw-400 w-100 d-block"
-                                >18 ETH</span
-                              ></span
-                            >
-                          </div>
-                          <div class="price col lh-sm">
-                            <span class="m-0"
-                              >3.99 ETH
-                              <span class="text-body fw-400 w-100 d-block"
-                                >1/1</span
+                                >18$</span
                               ></span
                             >
                           </div>
                       </div>
-                      <div class="product-card-cart" data-name="Orange" data-price="12" data-id="0" data-count="1">
+                      <div class="product-card-cart" data-name="Merch" data-price="18" data-id="0" data-count="1">
                           <input type="text" class="count" value="1" style="visibility: hidden;" />
                       <button class="btn btn-primary w-100">Add To Cart</button>
                   </div>
@@ -751,39 +528,16 @@
                     <a href="#"
                       ><img
                         class="product-card-img"
-                        src="assets/img/product-8.jpg"
+                        src="assets/img/CATSTATS (9).jpg"
                         title=""
                         alt=""
                     /></a>
-                    <div class="product-card-timer">
-                      <ul
-                        class="countdown bg-dark bg-opacity-25 blur-md"
-                        data-countdown-date="12/30/2023 12:00:00"
-                      >
-                        <li>
-                          <div data-days></div>
-                          <span>Days</span>
-                        </li>
-                        <li>
-                          <div data-hours></div>
-                          <span>Hours</span>
-                        </li>
-                        <li>
-                          <div data-minutes></div>
-                          <span>minutes</span>
-                        </li>
-                        <li>
-                          <div data-seconds></div>
-                          <span>seconds</span>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                   <div class="product" >
                       <div class="product-title d-flex align-items-center">
                           <h6 class="m-0">
                             <a class="text-reset stretched-linka" href="#"
-                              >Space Shapes #3</a
+                              >Merch</a
                             >
                           </h6>
                           <button
@@ -796,22 +550,14 @@
                       <div class="product-actions d-flex fs-sm">
                           <div class="price col lh-sm">
                             <span class="m-0"
-                              >Mirrored
+                              >price
                               <span class="text-body fw-400 w-100 d-block"
-                                >18 ETH</span
-                              ></span
-                            >
-                          </div>
-                          <div class="price col lh-sm">
-                            <span class="m-0"
-                              >3.99 ETH
-                              <span class="text-body fw-400 w-100 d-block"
-                                >1/1</span
+                                >18$</span
                               ></span
                             >
                           </div>
                       </div>
-                      <div class="product-card-cart" data-name="Orange" data-price="12" data-id="0" data-count="1">
+                      <div class="product-card-cart" data-name="Merch" data-price="18" data-id="0" data-count="1">
                           <input type="text" class="count" value="1" style="visibility: hidden;" />
                       <button class="btn btn-primary w-100">Add To Cart</button>
                   </div>
@@ -864,6 +610,72 @@
       </div>
     </div>
 </section> 
+
+<footer class="footer footer-bg bg-body border-top border-gray-300">
+  <div class="py-7">
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-lg-3 me-auto">
+          <div class="pb-4">
+            <img
+              class="footer-logo-light"
+              src="assets/img/logo.png"
+              title=""
+              alt=""
+            />
+            <img
+              class="footer-logo-dark"
+              src="assets/img/logo.png"
+              title=""
+              alt=""
+            />
+          </div>
+          <p>
+            The Great Cat Rescue: Saving Lives, One Meow at a Time
+          </p>
+          <p class="text-white-85 small m-0">
+            © 2023 CATSTATS
+          </p>
+        </div>
+        <div class="col-lg-3 col-6">
+          <h5 class="footer-title-01">Links</h5>
+          <ul class="list-unstyled footer-link-01 m-0">
+            <li><a class="" href="/index.html">Home</a></li>
+            <li><a class="" href="/endangered.html">Endangered</a></li>
+            <li><a class="" href="/extinct.html">Extinct</a></li>
+            <li><a class="" href="/shop.html">Store</a></li>
+            <li><a class="" href="/about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <h5 class="footer-title-01">Stay up to date</h5>
+          <form>
+            <div class="d-flex flex-row">
+              <input
+                type="email"
+                class="form-control me-2"
+                placeholder="Enter your username"
+              />
+              <button class="btn btn-primary flex-shrink-0">
+                <i class="bi-envelope"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="container">
+    <div class="row py-3 gy-3">
+      <div class="col-md-6">
+        <p class="text-white-85 small m-0">
+          © 2023 Catstats is Proudly Powered by jash mistry
+        </p>
+      </div>
+    </div>
+  </div> -->
+</footer>
 </div>
 
 </div>

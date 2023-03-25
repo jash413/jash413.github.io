@@ -17,171 +17,165 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
   </head>
   <body>
+    <div id="loading" class="loading-preloader1">
+      <div class="loading-preloader1-in">
+        <lottie-player
+          src="https://assets2.lottiefiles.com/packages/lf20_c5vj9laj.json"
+          background="#051027"
+          speed="2"
+          style="width: 300px; height: 300px"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+    </div>
     <div class="wrapper">
     <section>
       <header
-            class="main-header fixed-top headroom border-bottom border-gray-200 @@classes"
-          >
-            <nav class="navbar navbar-expand-lg">
-              <div class="container align-items-center">
-                <div class="logo">
-                  <a class="navbar-brand" href="index.html"
-                    ><img
-                      class="logo-dark"
-                      style="height: 50px; width: 150px; "
-                      src="assets/img/logo.png"
-                      title=""
-                      alt="" />
-                    <img
-                      class="logo-light"
-                      style="height: 50px; width: 150px; "
-                      src="assets/img/logo.png"
-                      title=""
-                      alt=""
-                  /></a>
-                </div>
-                <div class="header-end d-flex justify-content-end">
-                <div
-                  class="offcanvas nav-offcanvas offcanvas-start"
-                  tabindex="-1"
-                  id="offcanvas_Header_01"
-                  aria-labelledby="offcanvas_Header_01"
-                >
-                  <div
-                    class="offcanvas-header flex-wrap border-bottom border-gray-200"
-                  >
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="offcanvas"
-                      data-bs-target="#offcanvas_Header_01"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="offcanvas-body">
-                    <ul class="navbar-nav mx-auto">
-                      <li class="nav-item">
-                        <a
-                          class="nav-link dropdown-toggle"
-                          href="index.html"
-      
-                          >Home</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          class="nav-link dropdown-toggle"
-                          href="endangered.html"
-      
-                          >Endangered</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          class="nav-link"
-                          href="extinct.html"
-      
-                          >Extinct</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                          <a
-                            class="nav-link"
-                            href="shop.html"
-        
-                            >Store</a
-                          >
-                        </li>
-                      <li class="nav-item">
-                        <a
-                          class="nav-link"
-                          href="#"
-      
-                          >About Us</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="offcanvas-footer"></div>
-                </div>
-                <!-- Switch -->
-                  <div class="h-col h-switch dropdown">
-                    <button
-                      class="theme-switch h-icon dropdown-toggle"
-                      id="bd-theme"
-                      type="button"
-                      aria-expanded="false"
-                      data-bs-toggle="dropdown"
-                      data-bs-display="static"
-                    >
-                      <span class="bi my-1 theme-icon-active"
-                        ><i class="bi-circle-half"></i> </span
-                      ><span class="d-none">Toggle theme</span>
-                    </button>
-                    <ul
-                      class="dropdown-menu dropdown-menu-end"
-                      aria-labelledby="bd-theme"
-                    >
-                      <li>
-                        <button
-                          type="button"
-                          class="dropdown-item"
-                          data-bs-theme-value="light"
-                        >
-                          <span class="bi me-2 opacity-50 theme-icon"
-                            ><i class="bi-sun-fill"></i> </span
-                          >Light
-                          <span class="bi ms-auto d-none"
-                            ><i class="bi-check2"></i
-                          ></span>
-                        </button>
-                      </li>
-                      <li>
-                        <button
-                          type="button"
-                          class="dropdown-item"
-                          data-bs-theme-value="dark"
-                        >
-                          <span class="bi me-2 opacity-50 theme-icon"
-                            ><i class="bi-moon-stars-fill"></i> </span
-                          >Dark
-                          <span class="bi ms-auto d-none"
-                            ><i class="bi-check2"></i
-                          ></span>
-                        </button>
-                      </li>
-                      <li>
-                        <button
-                          type="button"
-                          class="dropdown-item active"
-                          data-bs-theme-value="auto"
-                        >
-                          <span class="bi me-2 opacity-50 theme-icon"
-                            ><i class="bi-circle-half"></i> </span
-                          >Auto
-                          <span class="bi ms-auto d-none"
-                            ><i class="bi-check2"></i
-                          ></span>
-                        </button>
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- Mobile Toggle -->
-                  <div class="h-col h-toggler d-xl-none">
-                    <button
-                      class="navbar-toggler"
-                      type="button"
-                      data-bs-toggle="offcanvas"
-                      data-bs-target="#offcanvas_Header_01"
-                      aria-controls="offcanvas_Header_01"
-                    >
-                      <span class="px-navbar-toggler-icon"></span>
-                    </button>
-                  </div>
-                </div>
+      class="main-header fixed-top headroom border-bottom border-gray-200 @@classes"
+    >
+      <nav class="navbar navbar-expand-lg">
+        <div class="container align-items-center">
+          <div class="logo">
+            <a class="navbar-brand" href="index.html"
+              ><img
+                class="logo-dark"
+                style="height: 50px; width: 150px"
+                src="assets/img/logo.png"
+                title=""
+                alt="" />
+              <img
+                class="logo-light"
+                style="height: 50px; width: 150px"
+                src="assets/img/logo.png"
+                title=""
+                alt=""
+            /></a>
+          </div>
+          <div class="header-end d-flex justify-content-end">
+            <div
+              class="offcanvas nav-offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvas_Header_01"
+              aria-labelledby="offcanvas_Header_01"
+            >
+              <div
+                class="offcanvas-header flex-wrap border-bottom border-gray-200"
+              >
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  data-bs-target="#offcanvas_Header_01"
+                  aria-label="Close"
+                ></button>
               </div>
-            </nav>
-        </header>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="endangered.html"
+                      >Endangered</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="extinct.html">Extinct</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Store</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="test.html">Where-Abouts</a>
+                    </li>
+                </ul>
+              </div>
+              <div class="offcanvas-footer"></div>
+            </div>
+            <!-- Switch -->
+            <div class="h-col h-switch dropdown">
+              <button
+                class="theme-switch h-icon dropdown-toggle"
+                id="bd-theme"
+                type="button"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                data-bs-display="static"
+              >
+                <span class="bi my-1 theme-icon-active"
+                  ><i class="bi-circle-half"></i> </span
+                ><span class="d-none">Toggle theme</span>
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="bd-theme"
+              >
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item"
+                    data-bs-theme-value="light"
+                  >
+                    <span class="bi me-2 opacity-50 theme-icon"
+                      ><i class="bi-sun-fill"></i> </span
+                    >Light
+                    <span class="bi ms-auto d-none"
+                      ><i class="bi-check2"></i
+                    ></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item"
+                    data-bs-theme-value="dark"
+                  >
+                    <span class="bi me-2 opacity-50 theme-icon"
+                      ><i class="bi-moon-stars-fill"></i> </span
+                    >Dark
+                    <span class="bi ms-auto d-none"
+                      ><i class="bi-check2"></i
+                    ></span>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item active"
+                    data-bs-theme-value="auto"
+                  >
+                    <span class="bi me-2 opacity-50 theme-icon"
+                      ><i class="bi-circle-half"></i> </span
+                    >Auto
+                    <span class="bi ms-auto d-none"
+                      ><i class="bi-check2"></i
+                    ></span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <!-- Mobile Toggle -->
+            <div class="h-col h-toggler d-xl-none">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvas_Header_01"
+                aria-controls="offcanvas_Header_01"
+              >
+                <span class="px-navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     </section>
     <div>
         <section style="padding-top: 10%;">
@@ -202,12 +196,14 @@
                         </div>
                         <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
                             <div class="mb-4" style="padding-top: 40px;">
-                                <h5>Flat-headed cat</h5>
+                                <h5>Saber-toothed cats</h5>
                             </div>
                             <ul class="list-unstyled list-icon mb-4">
                                 <li class="mb-3">
                                     <i class="la la-check"></i>
-                                    The flat-headed cat is a small wild cat that is found in the wetlands of Southeast Asia. They are threatened by habitat loss and degradation due to human activities, as well as hunting and trapping for their fur and body parts.
+                                    Saber-toothed cats are a group of extinct carnivorous mammals that were characterized by their long, curved canine teeth, which could be up to 7 inches in length. They lived during the Pleistocene epoch, from about 2.5 million to 10,000 years ago, and are known from fossils found on every continent except Australia and Antarctica.<br>
+
+There were many different species of saber-toothed cats, belonging to various families within the order Carnivora. Some of the most well-known genera include Smilodon, Homotherium, and Megantereon.
                                     </i>
                             </ul>
                             <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
@@ -232,12 +228,14 @@
                         </div>
                         <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
                             <div class="mb-4" style="padding-top: 40px;">
-                                <h5>Flat-headed cat</h5>
+                                <h5>American lion</h5>
                             </div>
                             <ul class="list-unstyled list-icon mb-4">
                                 <li class="mb-3">
                                     <i class="la la-check"></i>
-                                    The flat-headed cat is a small wild cat that is found in the wetlands of Southeast Asia. They are threatened by habitat loss and degradation due to human activities, as well as hunting and trapping for their fur and body parts.
+                                    The American lion (Panthera leo atrox) is an extinct species of lion that lived in North America during the Pleistocene epoch, from about 340,000 to 11,000 years ago. It is one of the largest known species of lion, with some estimates suggesting that it could weigh up to 1,000 pounds.<br>
+
+The American lion was a top predator in its ecosystem and likely preyed on large herbivores such as mammoths, mastodons, and bison. It is believed that the lion may have hunted in packs, which would have allowed it to take down even larger prey.
                                     </i>
                             </ul>
                             <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
@@ -262,12 +260,14 @@
                         </div>
                         <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
                             <div class="mb-4" style="padding-top: 40px;">
-                                <h5>Flat-headed cat</h5>
+                                <h5>Cave lion</h5>
                             </div>
                             <ul class="list-unstyled list-icon mb-4">
                                 <li class="mb-3">
                                     <i class="la la-check"></i>
-                                    The flat-headed cat is a small wild cat that is found in the wetlands of Southeast Asia. They are threatened by habitat loss and degradation due to human activities, as well as hunting and trapping for their fur and body parts.
+                                    The cave lion (Panthera spelaea) is an extinct species of lion that lived in Europe, Asia, and North America during the Pleistocene epoch, from about 370,000 to 10,000 years ago. It is also sometimes known as the European lion or the Eurasian cave lion.<br>
+
+The cave lion was a large predator, measuring up to 10 feet in length and weighing up to 880 pounds. It is thought to have been a skilled hunter, preying on large herbivores such as bison, horses, and reindeer. Like modern lions, the cave lion may have hunted in prides, allowing it to take down larger prey.
                                     </i>
                             </ul>
                             <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
@@ -292,12 +292,14 @@
                         </div>
                         <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
                             <div class="mb-4" style="padding-top: 40px;">
-                                <h5>Flat-headed cat</h5>
+                                <h5>Smilodon populator</h5>
                             </div>
                             <ul class="list-unstyled list-icon mb-4">
                                 <li class="mb-3">
                                     <i class="la la-check"></i>
-                                    The flat-headed cat is a small wild cat that is found in the wetlands of Southeast Asia. They are threatened by habitat loss and degradation due to human activities, as well as hunting and trapping for their fur and body parts.
+                                    Smilodon populator, also known as the populator saber-toothed cat, is an extinct species of saber-toothed cat that lived in South America during the Pleistocene epoch, from about 2.5 million to 10,000 years ago. It was the largest species of saber-toothed cat, weighing up to 1,000 pounds and measuring up to 4 feet at the shoulder.<br>
+
+The Smilodon populator was an apex predator in its ecosystem, and likely preyed on large herbivores such as giant ground sloths, glyptodonts, and horses. It is believed that the saber-toothed cat used its long, sharp teeth to deliver a powerful bite to the neck or throat of its prey, allowing it to quickly kill even the largest animals.
                                     </i>
                             </ul>
                             <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
@@ -322,12 +324,16 @@
                         </div>
                         <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
                             <div class="mb-4" style="padding-top: 40px;">
-                                <h5>Flat-headed cat</h5>
+                                <h5>Machairodus aphanistus</h5>
                             </div>
                             <ul class="list-unstyled list-icon mb-4">
                                 <li class="mb-3">
                                     <i class="la la-check"></i>
-                                    The flat-headed cat is a small wild cat that is found in the wetlands of Southeast Asia. They are threatened by habitat loss and degradation due to human activities, as well as hunting and trapping for their fur and body parts.
+                                    Machairodus aphanistus is an extinct species of saber-toothed cat that lived in North America during the Miocene epoch, about 12 million years ago. It was one of the earliest members of the Machairodontinae subfamily of cats, which includes all saber-toothed cats.<br>
+
+Machairodus aphanistus was a large predator, estimated to have weighed up to 660 pounds, with a skull measuring over 16 inches in length. It had long, flattened canines that could extend up to 8 inches beyond its lower jaw, which it likely used to deliver a powerful bite to the neck or throat of its prey.
+
+
                                     </i>
                             </ul>
                             <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
@@ -352,12 +358,14 @@
                         </div>
                         <div class="col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
                             <div class="mb-4" style="padding-top: 40px;">
-                                <h5>Flat-headed cat</h5>
+                                <h5>Homotherium</h5>
                             </div>
                             <ul class="list-unstyled list-icon mb-4">
                                 <li class="mb-3">
                                     <i class="la la-check"></i>
-                                    The flat-headed cat is a small wild cat that is found in the wetlands of Southeast Asia. They are threatened by habitat loss and degradation due to human activities, as well as hunting and trapping for their fur and body parts.
+                                    Homotherium is an extinct genus of saber-toothed cat that lived in North America, Europe, Africa, and Asia during the Pleistocene epoch, from about 2.5 million to 10,000 years ago. It is also known as the scimitar-toothed cat because of its curved upper canines, which were shorter and more robust than those of other saber-toothed cats.<br>
+
+Homotherium was a large predator, estimated to have weighed up to 880 pounds and measured over 4 feet tall at the shoulder. Its short, muscular limbs suggest that it was a fast runner, and it likely hunted large herbivores such as bison, horses, and mammoths.
                                     </i>
                             </ul>
                             <!-- <a class="btn btn-theme btn-circle" href="#" data-text="Learn More"> <span>L</span><span>e</span><span>a</span><span>r</span><span>n</span>
@@ -371,8 +379,74 @@
     </section>
     </div>
 
+    <footer class="footer footer-bg bg-body border-top border-gray-300">
+      <div class="py-7">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-3 me-auto">
+              <div class="pb-4">
+                <img
+                  class="footer-logo-light"
+                  src="assets/img/logo.png"
+                  title=""
+                  alt=""
+                />
+                <img
+                  class="footer-logo-dark"
+                  src="assets/img/logo.png"
+                  title=""
+                  alt=""
+                />
+              </div>
+              <p>
+                The Great Cat Rescue: Saving Lives, One Meow at a Time
+              </p>
+              <p class="text-white-85 small m-0">
+                © 2023 CATSTATS
+              </p>
+            </div>
+            <div class="col-lg-3 col-6">
+              <h5 class="footer-title-01">Links</h5>
+              <ul class="list-unstyled footer-link-01 m-0">
+                <li><a class="" href="/index.html">Home</a></li>
+                <li><a class="" href="/endangered.html">Endangered</a></li>
+                <li><a class="" href="/extinct.html">Extinct</a></li>
+                <li><a class="" href="/shop.html">Store</a></li>
+                <li><a class="" href="/about.html">About Us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h5 class="footer-title-01">Stay up to date</h5>
+              <form>
+                <div class="d-flex flex-row">
+                  <input
+                    type="email"
+                    class="form-control me-2"
+                    placeholder="Enter your username"
+                  />
+                  <button class="btn btn-primary flex-shrink-0">
+                    <i class="bi-envelope"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="container">
+        <div class="row py-3 gy-3">
+          <div class="col-md-6">
+            <p class="text-white-85 small m-0">
+              © 2023 Catstats is Proudly Powered by jash mistry
+            </p>
+          </div>
+        </div>
+      </div> -->
+    </footer>
+
     </div>
-    --><!-- script start --><!--bootstrap-->
+    <!-- script start --><!--bootstrap-->
     <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- swiper JS -->
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- metas -->
+        <meta charset="utf-8" />
+        <meta name="author" content="pxdraft" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,shrink-to-fit=no"
+        />
+        <!-- title -->
+        <title>Catstats</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" />
+        <!-- CSS Template -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <script src="https://cesium.com/downloads/cesiumjs/releases/1.84/Build/Cesium/Cesium.js"></script>
+        <link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.84/Build/Cesium/Widgets/widgets.css">
+      </head>
+<body>
+    <div id="loading" class="loading-preloader1">
+        <div class="loading-preloader1-in">
+          <lottie-player
+            src="https://assets2.lottiefiles.com/packages/lf20_c5vj9laj.json"
+            background="#051027"
+            speed="2"
+            style="width: 300px; height: 300px"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </div>
+    <header
+        class="main-header  headroom border-bottom border-gray-200 @@classes"
+      >
+        <nav class="navbar navbar-expand-lg">
+          <div class="container align-items-center">
+            <div class="logo">
+              <a class="navbar-brand" href="index.html"
+                ><img
+                  class="logo-dark"
+                  style="height: 50px; width: 150px"
+                  src="assets/img/logo.png"
+                  title=""
+                  alt="" />
+                <img
+                  class="logo-light"
+                  style="height: 50px; width: 150px"
+                  src="assets/img/logo.png"
+                  title=""
+                  alt=""
+              /></a>
+            </div>
+            <div class="header-end d-flex justify-content-end">
+              <div
+                class="offcanvas nav-offcanvas offcanvas-start"
+                tabindex="-1"
+                id="offcanvas_Header_01"
+                aria-labelledby="offcanvas_Header_01"
+              >
+                <div
+                  class="offcanvas-header flex-wrap border-bottom border-gray-200"
+                >
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    data-bs-target="#offcanvas_Header_01"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-toggle" href="index.html"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-toggle" href="endangered.html"
+                        >Endangered</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="extinct.html">Extinct</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="shop.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="test.html">Where-Abouts</a>
+                      </li>
+                  </ul>
+                </div>
+                <div class="offcanvas-footer"></div>
+              </div>
+              <!-- Switch -->
+              <div class="h-col h-switch dropdown">
+                <button
+                  class="theme-switch h-icon dropdown-toggle"
+                  id="bd-theme"
+                  type="button"
+                  aria-expanded="false"
+                  data-bs-toggle="dropdown"
+                  data-bs-display="static"
+                >
+                  <span class="bi my-1 theme-icon-active"
+                    ><i class="bi-circle-half"></i> </span
+                  ><span class="d-none">Toggle theme</span>
+                </button>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="bd-theme"
+                >
+                  <li>
+                    <button
+                      type="button"
+                      class="dropdown-item"
+                      data-bs-theme-value="light"
+                    >
+                      <span class="bi me-2 opacity-50 theme-icon"
+                        ><i class="bi-sun-fill"></i> </span
+                      >Light
+                      <span class="bi ms-auto d-none"
+                        ><i class="bi-check2"></i
+                      ></span>
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      type="button"
+                      class="dropdown-item"
+                      data-bs-theme-value="dark"
+                    >
+                      <span class="bi me-2 opacity-50 theme-icon"
+                        ><i class="bi-moon-stars-fill"></i> </span
+                      >Dark
+                      <span class="bi ms-auto d-none"
+                        ><i class="bi-check2"></i
+                      ></span>
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      type="button"
+                      class="dropdown-item active"
+                      data-bs-theme-value="auto"
+                    >
+                      <span class="bi me-2 opacity-50 theme-icon"
+                        ><i class="bi-circle-half"></i> </span
+                      >Auto
+                      <span class="bi ms-auto d-none"
+                        ><i class="bi-check2"></i
+                      ></span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <!-- Mobile Toggle -->
+              <div class="h-col h-toggler d-xl-none">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvas_Header_01"
+                  aria-controls="offcanvas_Header_01"
+                >
+                  <span class="px-navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+  <!-- create a div element to hold the cesium map -->
+  <div class="container">
+  <div id="cesiumContainer" style="width: 100%; height: 100%; margin-top: 5%; margin-bottom: 10%;"></div>
+</div>
+  <footer class="footer footer-bg bg-body border-top border-gray-300">
+    <div class="py-7">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-3 me-auto">
+            <div class="pb-4">
+              <img
+                class="footer-logo-light"
+                src="assets/img/logo.png"
+                title=""
+                alt=""
+              />
+              <img
+                class="footer-logo-dark"
+                src="assets/img/logo.png"
+                title=""
+                alt=""
+              />
+            </div>
+            <p>The Great Cat Rescue: Saving Lives, One Meow at a Time</p>
+            <p class="text-white-85 small m-0">© 2023 CATSTATS</p>
+          </div>
+          <div class="col-lg-3 col-6">
+            <h5 class="footer-title-01">Links</h5>
+            <ul class="list-unstyled footer-link-01 m-0">
+              <li><a class="" href="/index.html">Home</a></li>
+              <li><a class="" href="/endangered.html">Endangered</a></li>
+              <li><a class="" href="/extinct.html">Extinct</a></li>
+              <li><a class="" href="/shop.html">Store</a></li>
+              <li><a class="" href="/about.html">About Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="footer-title-01">Stay up to date</h5>
+            <form>
+              <div class="d-flex flex-row">
+                <input
+                  type="email"
+                  class="form-control me-2"
+                  placeholder="Enter your username"
+                />
+                <button class="btn btn-primary flex-shrink-0">
+                  <i class="bi-envelope"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container">
+      <div class="row py-3 gy-3">
+        <div class="col-md-6">
+          <p class="text-white-85 small m-0">
+            © 2023 Catstats is Proudly Powered by jash mistry
+          </p>
+        </div>
+      </div>
+    </div> -->
+  </footer>
+  <script>
+    // initialize the cesium viewer
+    var viewer = new Cesium.Viewer("cesiumContainer");
+
+    // define the locations
+    var locations = {
+      "black-footed cat": { latitude: 40.95423, longitude: 29.80598 },
+      "Amur leopard": { latitude: 41.8336752, longitude: -87.8323702 },
+      "Andean mountain cat": { latitude: -33.8651, longitude: 151.2094 },
+      "Clouded leopard": { latitude: 25.6098806, longitude: -80.4030709 },
+      "Iberian lynx": { latitude: 43.10717, longitude: 17.34245 },
+      "Rusty-spotted cat": { latitude: 40.7128, longitude: -74.0060 },
+      "Sand cat": { latitude: 48.8566, longitude: 2.3522 },
+      "Snow leopard": { latitude: 34.7656587, longitude: 137.6336014 },
+      "Sumatran tiger": { latitude: 51.927306, longitude: 4.4512293 }
+    };
+
+    // loop through the locations and add pins to the map
+    Object.keys(locations).forEach(function(key) {
+      var location = locations[key];
+
+      // create a pin entity at the location
+      var pinEntity = viewer.entities.add({
+        position: Cesium.Cartesian3.fromDegrees(location.longitude, location.latitude),
+        point: {
+          pixelSize: 10,
+          color: Cesium.Color.RED,
+        },
+      });
+
+      // create a label entity for the location name
+      var labelEntity = viewer.entities.add({
+        position: Cesium.Cartesian3.fromDegrees(location.longitude, location.latitude),
+        label: {
+          text: key,
+          font: "14px sans-serif",
+          horizontalOrigin: Cesium.HorizontalOrigin.LEFT,
+          verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+          pixelOffset: new Cesium.Cartesian2(10, -10),
+        },
+      });
+
+      // center the camera on the first location
+      if (key === Object.keys(locations)[0]) {
+        viewer.camera.flyTo({
+          destination: Cesium.Cartesian3.fromDegrees(location.longitude, location.latitude, 2000),
+        });
+      }
+    });
+  </script>
+</body>
+    <!-- script start --><!--bootstrap-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper JS -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Headroom JS -->
+    <script src="assets/vendor/headroom/headroom.min.js"></script>
+    <!-- Timezz JS -->
+    <script src="assets/vendor/timezz/timezz.js"></script>
+    <!-- Theme JS -->
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/color-modes.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <!-- End script start -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</html>

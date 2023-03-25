@@ -19,6 +19,13 @@ d.addEventListener("DOMContentLoaded", function(event) {
         }, 3000);
     }
 
+    var preloader1 = d.querySelector('.loading-preloader1');
+    if (preloader1) {
+        setTimeout(function() {
+            preloader1.classList.add('d-none');
+        }, 1000);
+    }
+
     // Headroom
     if (d.querySelector('.headroom')) {
         var headroom = new Headroom(document.querySelector(".main-header"), {
